@@ -1,8 +1,9 @@
 --- 
 layout: page
-title : Test Essay
+title : "Silver Scrapes"
 permalink: /test_essay/
-subtitle: "Silver Scrapes: Liveness, Communalism, and the Sounds of League of Legends Esports" 
+hide: true
+subtitle: "Liveness, Communalism, and the Sounds of League of Legends Esports" 
 feature-img: "assets/img/test_images/esports_unsplash_ELLA-DON.jpg"
 tags: [Dubstep, Esports, League of Legends, Liveness]
 ---
