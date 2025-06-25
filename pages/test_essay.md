@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: essay
 title : Test Essay
 permalink: /test_essay/
 subtitle: "Silver Scrapes: Liveness, Communalism, and the Sounds of League of Legends Esports" 
