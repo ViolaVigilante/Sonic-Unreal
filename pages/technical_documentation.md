@@ -16,5 +16,8 @@ permalink: /technical_documentation/
     3. Push commits to origin using GitHub Desktop
     4. Review changes at GitHub public URL
 
+## Random Things
+* When embedding images in pages, path must be relative to that specific page (rather than starting from root directory).
+
 ## Credits
 This site was made using [Jekyll](https://jekyllrb.com/) with the [Type-on-Strap](https://github.com/sylhare/Type-on-Strap/) theme and is hosted using [GitHub Pages](https://pages.github.com/).
