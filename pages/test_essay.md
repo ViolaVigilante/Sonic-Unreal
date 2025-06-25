@@ -1,5 +1,5 @@
 --- 
-layout: essay
+layout: page
 title : Test Essay
 permalink: /test_essay/
 subtitle: "Silver Scrapes: Liveness, Communalism, and the Sounds of League of Legends Esports" 
@@ -21,7 +21,7 @@ Esports, I will argue today, offer perhaps the clearest example of exactly this 
 
 <center>*****</center>
 
-![LCS 2024 Spring Finals](..\assets\img\test_images\LCS_2024_Spring_Finals.jpg)
+<a href="..\images\LCS_2024_Spring_Finals"><img src="..\assets\img\test_images\LCS_2024_Spring_Finals.jpg" alt="LCS 2024 Spring Finals"></a>
 
 Before we begin, a quick disclaimer. I am not interested in this paper in arguing whether the “live” is or is not a coherent or useful category, nor am I interested in discussing the ontology of live performance. Given the limited time we have today, I am pushing these questions to the side in order to focus on the relationship between live performance and its sensorial and affective trappings, which I refer to in this paper as “liveness.” In this paper I take for granted that there is such a thing as the “live,” and I provisionally define live performance as requiring both temporal synchronicity and shared physical space. This is a porous and partial definition, but it will serve our purposes for the limited time we have here today.
 
