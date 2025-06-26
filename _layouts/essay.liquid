@@ -1,4 +1,3 @@
-<!-- Copied from page.liquid - need to customize -->
 ---
 layout: default
 ---
@@ -26,11 +25,11 @@ layout: default
     </section>
     <section class="next-previous-page-buttons">
         {% if page.next-page and page.previous-page %}
-            {% include next_and_previous.html next_label=page.next-page-title next_destination=page.next-page-destination previous_label=page.previous-page-title previous_destination=page.previous-page-destination %}
+            {% include buttons/next_and_previous.html %}
         {% elsif page.next-page %}
-            {% include next_page.html label=page.next-page-title destination=page.next-page-destination %}
+            {% include buttons/next_page.html %}
         {% elsif page.previous-page %}
-            {% include previous_page.html label=page.previous-page-title destination=page.previous-page-destination %}
+            {% include buttons/previous_page.html %}
         {% endif %}
     </section>
     <!-- Tag list for portfolio -->

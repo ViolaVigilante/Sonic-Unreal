@@ -23,6 +23,18 @@ layout: default
         </div>
         {% endif %}
     </section>
+    <section class="next-previous-page-buttons">
+        {% if page.next-page and page.previous-page %}
+            {% include buttons/next_and_previous.html %}
+        {% elsif page.next-page %}
+            {% include buttons/next_page.html %}
+        {% elsif page.previous-page %}
+            {% include buttons/previous_page.html %}
+        {% endif %}
+        <br>
+        <br>
+        <br>
+    </section>
     <!-- Tag list for portfolio -->
     {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}
     {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}

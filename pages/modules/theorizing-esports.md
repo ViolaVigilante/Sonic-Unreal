@@ -1,5 +1,5 @@
 --- 
-layout: page
+layout: essay
 title : Theorizing Esports
 permalink: /theorizing-esports
 hide: true
