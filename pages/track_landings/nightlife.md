@@ -1,5 +1,5 @@
 --- 
-layout: page
+layout: track_landing
 title : Nightlife
 permalink: /nightlife
 tags: [nightlife, Keywords]

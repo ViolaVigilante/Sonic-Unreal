@@ -1,5 +1,5 @@
 --- 
-layout: page
+layout: track_landing
 title : Immersion
 permalink: /immersion
 tags: [Immersion, Keywords]

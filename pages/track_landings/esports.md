@@ -1,7 +1,10 @@
 --- 
-layout: page
+layout: track_landing
 title : Esports
 permalink: /esports
+next-page: true
+next-page-title: History & Landscape of Esports
+next-page-destination: history_landscape_esports
 tags: [esports, Keywords]
 ---
 

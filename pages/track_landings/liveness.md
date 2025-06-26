@@ -1,5 +1,5 @@
 --- 
-layout: page
+layout: track_landing
 title : Liveness
 permalink: /liveness
 tags: [Liveness, Keywords]
