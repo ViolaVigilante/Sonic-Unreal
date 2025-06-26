@@ -1,17 +1,13 @@
 --- 
 layout: page
-title : History & Landscape of Esports
-permalink: /history_landscape_esports
+title : Theorizing Esports
+permalink: /theorizing-esports
 hide: true
 next-page: true
-next-page-title: Theorizing Esports
-next-page-destination: ../theorizing-esports
+next-page-title: Sound, Affect, Labor
 previous-page: true
-previous-page-title: Esports
-previous-page-destination: ../esports
+previous-page-title: History & Landscape of Esports
 tags: [esports]
 ---
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-{% include next_page.html label="History & Landscape of Esports" destination="\history_landscape_esports" %}

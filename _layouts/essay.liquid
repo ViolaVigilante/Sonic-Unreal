@@ -24,6 +24,15 @@ layout: default
         </div>
         {% endif %}
     </section>
+    <section class="next-previous-page-buttons">
+        {% if page.next-page and page.previous-page %}
+            {% include next_and_previous.html next_label=page.next-page-title next_destination=page.next-page-destination previous_label=page.previous-page-title previous_destination=page.previous-page-destination %}
+        {% elsif page.next-page %}
+            {% include next_page.html label=page.next-page-title destination=page.next-page-destination %}
+        {% elsif page.previous-page %}
+            {% include previous_page.html label=page.previous-page-title destination=page.previous-page-destination %}
+        {% endif %}
+    </section>
     <!-- Tag list for portfolio -->
     {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}
     {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}
