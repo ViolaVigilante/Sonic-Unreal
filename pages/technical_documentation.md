@@ -2,6 +2,7 @@
 layout: page
 title: Technical Documentation
 permalink: /technical_documentation/
+hide: true
 ---
 
 ## Jekyll Workflow
