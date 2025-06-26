@@ -4,12 +4,12 @@ title : Ingestion & Immersion
 permalink: /ingestion_immersion
 hide: true
 nightlife-track: true
-next-page: true
-next-page-title: The (Un)Reality of Nightlife
-next-page-destination: unreality_nightlife
-previous-page: true
-previous-page-title: Gaysianness - Identity, Affect, Aesthetic
-previous-page-destination: gaysianness
+next-nightlife-page: true
+next-nightlife-page-title: The (Un)Reality of Nightlife
+next-nightlife-page-destination: unreality_nightlife
+previous-nightlife-page: true
+previous-nightlife-page-title: Gaysianness - Identity, Affect, Aesthetic
+previous-nightlife-page-destination: gaysianness
 tags: [Nightlife]
 ---
 

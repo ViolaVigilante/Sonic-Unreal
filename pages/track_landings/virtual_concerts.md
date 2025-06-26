@@ -3,9 +3,9 @@ layout: track_landing
 title : Virtual Concerts
 permalink: /virtual_concerts
 virtual-concerts-track: true
-next-page: true
-next-page-title: History & Landscape of Virtual Music
-next-page-destination: history_landscape_virtual_music
+next-virtual-concerts-page: true
+next-virtual-concerts-page-title: History & Landscape of Virtual Music
+next-virtual-concerts-page-destination: history_landscape_virtual_music
 tags: [Virtual Concerts, Keywords]
 ---
 

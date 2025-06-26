@@ -4,12 +4,12 @@ title : Affect & Liveness
 permalink: /affect_liveness
 hide: true
 virtual-concerts-track: true
-next-page: true
-next-page-title: Queer Maximalism
-next-page-destination: queer_maximalism
-previous-page: true
-previous-page-title: What Makes Virtual Concerts Virtual?
-previous-page-destination: what_makes_virtual_concerts
+next-virtual-concerts-page: true
+next-virtual-concerts-page-title: Queer Maximalism
+next-virtual-concerts-page-destination: queer_maximalism
+previous-virtual-concerts-page: true
+previous-virtual-concerts-page-title: What Makes Virtual Concerts Virtual?
+previous-virtual-concerts-page-destination: what_makes_virtual_concerts
 tags: [Virtual Concerts]
 ---
 

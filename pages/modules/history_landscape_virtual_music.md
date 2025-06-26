@@ -4,12 +4,12 @@ title : History & Landscape of Virtual Music
 permalink: /history_landscape_virtual_music
 hide: true
 virtual-concerts-track: true
-next-page: true
-next-page-title: What Makes Virtual Concerts Virtual?
-next-page-destination: what_makes_virtual_concerts
-previous-page: true
-previous-page-title: Virtual Concerts
-previous-page-destination: virtual_concerts
+next-virtual-concerts-page: true
+next-virtual-concerts-page-title: What Makes Virtual Concerts Virtual?
+next-virtual-concerts-page-destination: what_makes_virtual_concerts
+previous-virtual-concerts-page: true
+previous-virtual-concerts-page-title: Virtual Concerts
+previous-virtual-concerts-page-destination: virtual_concerts
 tags: [Virtual Concerts]
 ---
 

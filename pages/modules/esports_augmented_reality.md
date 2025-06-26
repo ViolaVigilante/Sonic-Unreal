@@ -4,9 +4,9 @@ title : Esports as Augmented Reality
 permalink: /esports_augmented_reality
 hide: true
 esports-track: true
-previous-page: true
-previous-page-title: Sound, Affect, Labor
-previous-page-destination: sound_affect_labor
+previous-esports-page: true
+previous-esports-page-title: Sound, Affect, Labor
+previous-esports-page-destination: sound_affect_labor
 tags: [Esports]
 ---
 

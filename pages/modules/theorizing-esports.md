@@ -4,12 +4,12 @@ title : Theorizing Esports
 permalink: /theorizing_esports
 hide: true
 esports-track: true
-next-page: true
-next-page-title: Sound, Affect, Labor
-next-page-destination: sound_affect_labor
-previous-page: true
-previous-page-title: History & Landscape of Esports
-previous-page-destination: history_landscape_esports
+next-esports-page: true
+next-esports-page-title: Sound, Affect, Labor
+next-esports-page-destination: sound_affect_labor
+previous-esports-page: true
+previous-esports-page-title: History & Landscape of Esports
+previous-esports-page-destination: history_landscape_esports
 tags: [Esports]
 ---
 

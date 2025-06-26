@@ -4,12 +4,12 @@ title : Gaysianness - Identity, Affect, Aesthetic
 permalink: /gaysianness
 hide: true
 nightlife-track: true
-next-page: true
-next-page-title: Ingestion & Immersion
-next-page-destination: ingestion_immersion
-previous-page: true
-previous-page-title: Gaysian Nightlife in LA
-previous-page-destination: gaysian_nightlife_la
+next-nightlife-page: true
+next-nightlife-page-title: Ingestion & Immersion
+next-nightlife-page-destination: ingestion_immersion
+previous-nightlife-page: true
+previous-nightlife-page-title: Gaysian Nightlife in LA
+previous-nightlife-page-destination: gaysian_nightlife_la
 tags: [Nightlife]
 ---
 

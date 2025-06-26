@@ -40,22 +40,22 @@ layout: default
         <div class="nightlife-track">
             {% if page.nightlife-track %}
                 {% if page.next-nightlife-page and page.previous-nightlife-page %}
-                    {% include buttons/next_and_previous.html %}
+                    {% include buttons/nightlife_next_and_previous.html %}
                 {% elsif page.next-nightlife-page %}
-                    {% include buttons/next_page.html %}
+                    {% include buttons/nightlife_next_page.html %}
                 {% elsif page.previous-nightlife-page %}
-                    {% include buttons/previous_page.html %}
+                    {% include buttons/nightlife_previous_page.html %}
                 {% endif %}
             {% endif %}
         </div>
         <div class="virtual-concerts-track">
             {% if page.virtual-concerts-track %}
                 {% if page.next-virtual-concerts-page and page.previous-virtual-concerts-page %}
-                    {% include buttons/next_and_previous.html %}
+                    {% include buttons/virtual_concerts_next_and_previous.html %}
                 {% elsif page.next-virtual-concerts-page %}
-                    {% include buttons/next_page.html %}
+                    {% include buttons/virtual_concerts_next_page.html %}
                 {% elsif page.previous-virtual-concerts-page %}
-                    {% include buttons/previous_page.html %}
+                    {% include buttons/virtual_concerts_previous_page.html %}
                 {% endif %}
             {% endif %}
         </div>

@@ -4,12 +4,12 @@ title : Sound, Affect, Labor
 permalink: /sound_affect_labor
 hide: true
 esports-track: true
-next-page: true
-next-page-title: Esports as Augmented Reality
-next-page-destination: esports_augmented_reality
-previous-page: true
-previous-page-title: Theorizing Esports
-previous-page-destination: theorizing_esports
+next-esports-page: true
+next-esports-page-title: Esports as Augmented Reality
+next-esports-page-destination: esports_augmented_reality
+previous-esports-page: true
+previous-esports-page-title: Theorizing Esports
+previous-esports-page-destination: theorizing_esports
 tags: [Esports]
 ---
 

@@ -23,14 +23,42 @@ layout: default
         </div>
         {% endif %}
     </section>
+
+    <!-- Looks for which track(s) a page is a part of, then initializes colored next/previous page buttons as appropriate for each track -->
     <section class="next-previous-page-buttons">
-        {% if page.next-page and page.previous-page %}
-            {% include buttons/next_and_previous.html %}
-        {% elsif page.next-page %}
-            {% include buttons/next_page.html %}
-        {% elsif page.previous-page %}
-            {% include buttons/previous_page.html %}
-        {% endif %}
+        <div class="esports-track">
+            {% if page.esports-track %}
+                {% if page.next-esports-page and page.previous-esports-page %}
+                    {% include buttons/esports_next_and_previous.html %}
+                {% elsif page.next-esports-page %}
+                    {% include buttons/esports_next_page.html %}
+                {% elsif page.previous-esports-page %}
+                    {% include buttons/esports_previous_page.html %}
+                {% endif %}
+            {% endif %}
+        </div>
+        <div class="nightlife-track">
+            {% if page.nightlife-track %}
+                {% if page.next-nightlife-page and page.previous-nightlife-page %}
+                    {% include buttons/nightlife_next_and_previous.html %}
+                {% elsif page.next-nightlife-page %}
+                    {% include buttons/nightlife_next_page.html %}
+                {% elsif page.previous-nightlife-page %}
+                    {% include buttons/nightlife_previous_page.html %}
+                {% endif %}
+            {% endif %}
+        </div>
+        <div class="virtual-concerts-track">
+            {% if page.virtual-concerts-track %}
+                {% if page.next-virtual-concerts-page and page.previous-virtual-concerts-page %}
+                    {% include buttons/virtual_concerts_next_and_previous.html %}
+                {% elsif page.next-virtual-concerts-page %}
+                    {% include buttons/virtual_concerts_next_page.html %}
+                {% elsif page.previous-virtual-concerts-page %}
+                    {% include buttons/virtual_concerts_previous_page.html %}
+                {% endif %}
+            {% endif %}
+        </div>
     </section>
     <!-- Tag list for portfolio -->
     {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}

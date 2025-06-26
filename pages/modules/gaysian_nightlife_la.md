@@ -4,12 +4,12 @@ title : Gaysian Nightlife in LA
 permalink: /gaysian_nightlife_la
 hide: true
 nightlife-track: true
-next-page: true
-next-page-title: Gaysianness - Identity, Affect, Aesthetic
-next-page-destination: gaysianness
-previous-page: true
-previous-page-title: Nightlife
-previous-page-destination: nightlife
+next-nightlife-page: true
+next-nightlife-page-title: Gaysianness - Identity, Affect, Aesthetic
+next-nightlife-page-destination: gaysianness
+previous-nightlife-page: true
+previous-nightlife-page-title: Nightlife
+previous-nightlife-page-destination: nightlife
 tags: [Nightlife]
 ---
 

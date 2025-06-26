@@ -4,12 +4,12 @@ title : What Makes Virtual Concerts Virtual?
 permalink: /what_makes_virtual_concerts
 hide: true
 virtual-concerts-track: true
-next-page: true
-next-page-title: Affect & Liveness
-next-page-destination: affect_liveness
-previous-page: true
-previous-page-title: History & Landscape of Virtual Music
-previous-page-destination: history_landscape_virtual_music
+next-virtual-concerts-page: true
+next-virtual-concerts-page-title: Affect & Liveness
+next-virtual-concerts-page-destination: affect_liveness
+previous-virtual-concerts-page: true
+previous-virtual-concerts-page-title: History & Landscape of Virtual Music
+previous-virtual-concerts-page-destination: history_landscape_virtual_music
 tags: [Virtual Concerts]
 ---
 

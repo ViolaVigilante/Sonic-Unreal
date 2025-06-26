@@ -4,9 +4,9 @@ title : Queer Maximalism
 permalink: /queer_maximalism
 hide: true
 virtual-concerts-track: true
-previous-page: true
-previous-page-title: Affect & Liveness
-previous-page-destination: affect_liveness
+previous-virtual-concerts-page: true
+previous-virtual-concerts-page-title: Affect & Liveness
+previous-virtual-concerts-page-destination: affect_liveness
 tags: [Virtual Concerts]
 ---
 
