@@ -3,6 +3,7 @@ layout: essay
 title : Gaysian Nightlife in LA
 permalink: /gaysian_nightlife_la
 hide: true
+nightlife-track: true
 next-page: true
 next-page-title: Gaysianness - Identity, Affect, Aesthetic
 next-page-destination: gaysianness

@@ -1,0 +1,47 @@
+<head>
+    <style>
+        .grid {
+            display: grid;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            grid-template-columns: auto auto;
+            background-color:darkslategray;
+        }
+
+        .title {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            justify-self: center;
+        }
+
+        .button {
+            flex: 50%;
+            justify-self: center;
+            border: none;
+        }
+
+        .label {
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="title">
+            <h2>Nightlife Track</h2>
+        </div>
+        <div class="button">
+            <button type="button" onclick="location.href='{{ page.previous-nightlife-page-destination }}'">{{ page.previous-nightlife-page-title }}</button>
+        </div>
+        <div class="button">
+            <button type="button" onclick="location.href='{{ page.next-nightlife-page-destination }}'">{{ page.next-nightlife-page-title }}</button>
+        </div>
+        <div class="label">
+            PREVIOUS PAGE
+        </div>
+        <div class="label">
+            NEXT PAGE
+        </div>
+    </div>
+</body>

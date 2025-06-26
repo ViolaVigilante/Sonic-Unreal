@@ -3,6 +3,7 @@ layout: essay
 title : Sound, Affect, Labor
 permalink: /sound_affect_labor
 hide: true
+esports-track: true
 next-page: true
 next-page-title: Esports as Augmented Reality
 next-page-destination: esports_augmented_reality

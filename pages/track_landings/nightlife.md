@@ -2,6 +2,7 @@
 layout: track_landing
 title : Nightlife
 permalink: /nightlife
+nightlife-track: true
 next-page: true
 next-page-title: Gaysian Nightlife in LA
 next-page-destination: gaysian_nightlife_la

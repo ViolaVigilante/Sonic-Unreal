@@ -1,0 +1,41 @@
+<head>
+    <style>
+        .grid {
+            display: grid;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            grid-template-columns: auto;
+            background-color:lightgreen;
+        }
+
+        .title {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            justify-self: center;
+        }
+
+        .button {
+            flex: 50%;
+            justify-self: center;
+            border: none;
+        }
+
+        .label {
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="title">
+            <h2>Virtual Concerts Track</h2>
+        </div>
+        <div class="button">
+            <button type="button" onclick="location.href='{{ page.next-virtual-concerts-page-destination }}'">{{ page.next-virtual-concerts-page-title }}</button>
+        </div>
+        <div class="label">
+            NEXT PAGE
+        </div>
+    </div>
+</body>

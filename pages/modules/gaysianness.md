@@ -3,6 +3,7 @@ layout: essay
 title : Gaysianness - Identity, Affect, Aesthetic
 permalink: /gaysianness
 hide: true
+nightlife-track: true
 next-page: true
 next-page-title: Ingestion & Immersion
 next-page-destination: ingestion_immersion

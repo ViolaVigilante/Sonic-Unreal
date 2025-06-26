@@ -3,12 +3,13 @@ layout: essay
 title : History & Landscape of Esports
 permalink: /history_landscape_esports
 hide: true
-next-page: true
-next-page-title: Theorizing Esports
-next-page-destination: theorizing_esports
-previous-page: true
-previous-page-title: Esports
-previous-page-destination: esports
+esports-track: true
+next-esports-page: true
+next-esports-page-title: Theorizing Esports
+next-esports-page-destination: theorizing_esports
+previous-esports-page: true
+previous-esports-page-title: Esports
+previous-esports-page-destination: esports
 tags: [Esports]
 ---
 

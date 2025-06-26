@@ -3,6 +3,7 @@ layout: essay
 title : History & Landscape of Virtual Music
 permalink: /history_landscape_virtual_music
 hide: true
+virtual-concerts-track: true
 next-page: true
 next-page-title: What Makes Virtual Concerts Virtual?
 next-page-destination: what_makes_virtual_concerts

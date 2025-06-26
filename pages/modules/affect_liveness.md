@@ -3,6 +3,7 @@ layout: essay
 title : Affect & Liveness
 permalink: /affect_liveness
 hide: true
+virtual-concerts-track: true
 next-page: true
 next-page-title: Queer Maximalism
 next-page-destination: queer_maximalism

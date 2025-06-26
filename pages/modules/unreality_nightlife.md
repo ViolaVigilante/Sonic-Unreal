@@ -3,6 +3,7 @@ layout: essay
 title : The (Un)Reality of Nightlife
 permalink: /unreality_nightlife
 hide: true
+nightlife-track: true
 previous-page: true
 previous-page-title: Ingestion & Immersion
 previous-page-destination: ingestion_immersion

@@ -3,6 +3,7 @@ layout: essay
 title : Theorizing Esports
 permalink: /theorizing_esports
 hide: true
+esports-track: true
 next-page: true
 next-page-title: Sound, Affect, Labor
 next-page-destination: sound_affect_labor

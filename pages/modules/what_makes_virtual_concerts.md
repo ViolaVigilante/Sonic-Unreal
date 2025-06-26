@@ -3,6 +3,7 @@ layout: essay
 title : What Makes Virtual Concerts Virtual?
 permalink: /what_makes_virtual_concerts
 hide: true
+virtual-concerts-track: true
 next-page: true
 next-page-title: Affect & Liveness
 next-page-destination: affect_liveness
