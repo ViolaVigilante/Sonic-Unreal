@@ -1,14 +1,11 @@
 --- 
 layout: essay
-title : Theorizing Esports
-permalink: /theorizing_esports
+title : Esports as Augmented Reality
+permalink: /esports_augmented_reality
 hide: true
-next-page: true
-next-page-title: Sound, Affect, Labor
-next-page-destination: sound_affect_labor
 previous-page: true
-previous-page-title: History & Landscape of Esports
-previous-page-destination: history_landscape_esports
+previous-page-title: Sound, Affect, Labor
+previous-page-destination: sound_affect_labor
 tags: [esports]
 ---
 

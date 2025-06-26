@@ -5,7 +5,7 @@ permalink: /history_landscape_esports
 hide: true
 next-page: true
 next-page-title: Theorizing Esports
-next-page-destination: theorizing-esports
+next-page-destination: theorizing_esports
 previous-page: true
 previous-page-title: Esports
 previous-page-destination: esports
