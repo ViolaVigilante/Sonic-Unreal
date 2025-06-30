@@ -2,6 +2,12 @@
 layout: track_landing
 title : Liveness
 permalink: /liveness
+
+liveness-track: true
+next-liveness-page: true
+next-liveness-page-title: What is Liveness?
+next-liveness-page-destination: what_is_liveness
+
 tags: [Liveness, Keywords]
 ---
 

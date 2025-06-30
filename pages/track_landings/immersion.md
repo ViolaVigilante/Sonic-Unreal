@@ -2,6 +2,12 @@
 layout: track_landing
 title : Immersion
 permalink: /immersion
+
+immersion-track: true
+next-immersion-page: true
+next-immersion-page-title: What is Immersion?
+next-immersion-page-destination: what_is_immersion
+
 tags: [Immersion, Keywords]
 ---
 

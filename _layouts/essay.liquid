@@ -59,6 +59,39 @@ layout: default
                 {% endif %}
             {% endif %}
         </div>
+        <div class="immersion-track">
+            {% if page.immersion-track %}
+                {% if page.next-immersion-page and page.previous-immersion-page %}
+                    {% include buttons/immersion_next_and_previous.html %}
+                {% elsif page.next-immersion-page %}
+                    {% include buttons/immersion_next_page.html %}
+                {% elsif page.previous-immersion-page %}
+                    {% include buttons/immersion_previous_page.html %}
+                {% endif %}
+            {% endif %}
+        </div>
+        <div class="liveness-track">
+            {% if page.liveness-track %}
+                {% if page.next-liveness-page and page.previous-liveness-page %}
+                    {% include buttons/liveness_next_and_previous.html %}
+                {% elsif page.next-liveness-page %}
+                    {% include buttons/liveness_next_page.html %}
+                {% elsif page.previous-liveness-page %}
+                    {% include buttons/liveness_previous_page.html %}
+                {% endif %}
+            {% endif %}
+        </div>
+        <div class="virtuality-track">
+            {% if page.virtuality-track %}
+                {% if page.next-virtuality-page and page.previous-virtuality-page %}
+                    {% include buttons/virtuality_next_and_previous.html %}
+                {% elsif page.next-virtuality-page %}
+                    {% include buttons/virtuality_next_page.html %}
+                {% elsif page.previous-virtuality-page %}
+                    {% include buttons/virtuality_previous_page.html %}
+                {% endif %}
+            {% endif %}
+        </div>
     </section>
     <!-- Tag list for portfolio -->
     {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}

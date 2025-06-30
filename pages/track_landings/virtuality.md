@@ -2,6 +2,12 @@
 layout: track_landing
 title : Virtuality
 permalink: /virtuality
+
+virtuality-track: true
+next-virtuality-page: true
+next-virtuality-page-title: What is Virtuality?
+next-virtuality-page-destination: what_is_virtuality
+
 tags: [Virtuality, Keywords]
 ---
 

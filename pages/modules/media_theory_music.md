@@ -1,34 +1,31 @@
 --- 
 layout: essay
-title : Sound, Affect, Labor
-permalink: /sound_affect_labor
+title : A Media Theory of Music
+permalink: /media_theory_music
 hide: true
 
-esports-track: true
-next-esports-page: true
-next-esports-page-title: Esports as Augmented Reality
-next-esports-page-destination: esports_augmented_reality
-previous-esports-page: true
-previous-esports-page-title: Theorizing Esports
-previous-esports-page-destination: theorizing_esports
+
+previous-virtual-concerts-page: true
+previous-virtual-concerts-page-title: Queer Maximalism
+previous-virtual-concerts-page-destination: queer_maximalism
 
 immersion-track: true
 next-immersion-page: true
-next-immersion-page-title: Esports as Augmented Reality
-next-immersion-page-destination: esports_augmented_reality
+next-immersion-page-title: Sound, Affect, Labor
+next-immersion-page-destination: sound_affect_labor
 previous-immersion-page: true
-previous-immersion-page-title: A Media Theory of Music
-previous-immersion-page-destination: media_theory_music
+previous-immersion-page-title: Affect & Liveness
+previous-immersion-page-destination: affect_liveness
 
 liveness-track: true
 next-liveness-page: true
-next-liveness-page-title: What is Liveness?
-next-liveness-page-destination: what_is_liveness
+next-liveness-page-title: Gaysianness - Identity, Affect, Aesthetic
+next-liveness-page-destination: gaysianness
 previous-virtuality-page: true
 previous-virtuality-page-title: Affect & Liveness
 previous-virtuality-page-destination: affect_liveness
 
-tags: [Esports, Immersion, Liveness]
+tags: [Virtual Concerts, Immersion, Liveness]
 ---
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
