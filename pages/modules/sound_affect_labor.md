@@ -22,11 +22,11 @@ previous-immersion-page-destination: media_theory_music
 
 liveness-track: true
 next-liveness-page: true
-next-liveness-page-title: What is Liveness?
-next-liveness-page-destination: what_is_liveness
-previous-virtuality-page: true
-previous-virtuality-page-title: Affect & Liveness
-previous-virtuality-page-destination: affect_liveness
+next-liveness-page-title: Affect & Liveness
+next-liveness-page-destination: affect_liveness
+previous-liveness-page: true
+previous-liveness-page-title: What is Liveness?
+previous-liveness-page-destination: what_is_liveness
 
 tags: [Esports, Immersion, Liveness]
 ---

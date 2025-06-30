@@ -24,9 +24,9 @@ liveness-track: true
 next-liveness-page: true
 next-liveness-page-title: A Media Theory of Music
 next-liveness-page-destination: media_theory_music
-previous-virtuality-page: true
-previous-virtuality-page-title: Sound, Affect, Labor
-previous-virtuality-page-destination: sound_affect_labor
+previous-liveness-page: true
+previous-liveness-page-title: Sound, Affect, Labor
+previous-liveness-page-destination: sound_affect_labor
 
 tags: [Virtual Concerts, Immersion, Liveness]
 ---

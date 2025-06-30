@@ -11,7 +11,7 @@ previous-nightlife-page-destination: ingestion_immersion
 
 virtuality-track: true
 next-virtuality-page: true
-next-virtuality-page-title: Esports as Augmnented Reality
+next-virtuality-page-title: Esports as Augmented Reality
 next-virtuality-page-destination: esports_augmented_reality
 previous-virtuality-page: true
 previous-virtuality-page-title: Gaysianness - Identity, Affect, Aesthetic

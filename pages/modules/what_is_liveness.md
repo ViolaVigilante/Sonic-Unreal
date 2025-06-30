@@ -8,9 +8,9 @@ liveness-track: true
 next-liveness-page: true
 next-liveness-page-title: Sound, Affect, Labor
 next-liveness-page-destination: sound_affect_labor
-previous-virtuality-page: true
-previous-virtuality-page-title: Liveness
-previous-virtuality-page-destination: liveness
+previous-liveness-page: true
+previous-liveness-page-title: Liveness
+previous-liveness-page-destination: liveness
 
 tags: [Liveness]
 ---

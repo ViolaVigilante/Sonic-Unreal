@@ -24,9 +24,9 @@ liveness-track: true
 next-liveness-page: true
 next-liveness-page-title: The (Un)Reality of Nightlife
 next-liveness-page-destination: unreality_nightlife
-previous-virtuality-page: true
-previous-virtuality-page-title: A Media Theory of Music
-previous-virtuality-page-destination: media_theory_music
+previous-liveness-page: true
+previous-liveness-page-title: A Media Theory of Music
+previous-liveness-page-destination: media_theory_music
 
 tags: [Nightlife, Virtuality, Liveness]
 ---

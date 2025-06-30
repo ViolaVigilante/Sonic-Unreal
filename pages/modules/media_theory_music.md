@@ -21,9 +21,9 @@ liveness-track: true
 next-liveness-page: true
 next-liveness-page-title: Gaysianness - Identity, Affect, Aesthetic
 next-liveness-page-destination: gaysianness
-previous-virtuality-page: true
-previous-virtuality-page-title: Affect & Liveness
-previous-virtuality-page-destination: affect_liveness
+previous-liveness-page: true
+previous-liveness-page-title: Affect & Liveness
+previous-liveness-page-destination: affect_liveness
 
 tags: [Virtual Concerts, Immersion, Liveness]
 ---
