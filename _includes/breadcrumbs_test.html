@@ -1,0 +1,52 @@
+<head>
+    <style>
+        .breadcrumbsArea {
+            padding: 70px;
+        }
+    </style>
+</head>
+
+<body>
+  <nav class="breadcrumbsArea" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <h1>BREADCRUMBS TEST</h1>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+
+  <script>
+    let breadcrumbList = JSON.parse(localStorage.getItem("storedBreadcrumbList")) || [];
+
+    // Add current page to breadcrumb list
+    breadcrumbList.push([{{ page.title }}, {{page.permalink}}]);
+
+    // Limit to 8 items
+    if (breadcrumbList.length > 8) {
+      breadcrumbList.splice(0, 1);
+    }
+    // Save updated list
+    localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
+
+    // Display breadcrumbs
+    const parent = document.getElementById('parent');
+
+    breadcrumbList.forEach((item, index) => {
+      const [name, path] = item;
+      const li = document.createElement("li");
+      li.className = "breadcrumb-item";
+
+      if (index < breadcrumbList.length - 1) {
+        li.innerHTML = `<a href="${path}">${name}</a>`;
+      } else {
+        li.classList.add("active");
+        li.setAttribute("aria-current", "page");
+        li.textContent = name;
+      }
+
+      parent.appendChild(li);
+
+    });
+  </script>
+</body>

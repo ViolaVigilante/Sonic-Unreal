@@ -1,0 +1,20 @@
+<head>
+  <title>Local Storage Viewer</title>
+</head>
+<body>
+  <h2>Local Storage Contents</h2>
+  <ul id="storageList"></ul>
+
+  <script>
+    const storageList = document.getElementById('storageList');
+
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      const value = localStorage.getItem(key);
+
+      const li = document.createElement('li');
+      li.textContent = `${key}: ${value}`;
+      storageList.appendChild(li);
+    }
+  </script>
+</body>

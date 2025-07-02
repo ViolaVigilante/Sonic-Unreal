@@ -1,0 +1,67 @@
+<!-- Need to pass name and path of current page to this include as pageName and pagePath -->
+
+<head>
+
+</head>
+
+<body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb" id="parent"></ol>
+    </nav>
+
+    <script>
+        // call functions
+        retrieveArray
+        
+        // INCOMPLETE: need to turn this into an if/else for first vs. subsequent pages
+        // initialize breadcrumbList on first page visited
+        let breadcrumbList = [];
+        
+        function retrieveArray () {
+            //retrieve array from storage
+            let tempList = localStorage.getItem("storedBreadcrumbList");
+            breadcrumbList = JSON.parse(tempList) || [];
+                    
+            // add current page title and path to end of array
+            breadcrumbList.push([`${pageName}`, `${pagePath}`]);
+
+            // Check to see if array is longer than 8 items; if so, remove first (oldest) item
+            if (breadcrumbList.length > 8) {
+                breadcrumbList.splice(0, 1);
+            };
+        };
+
+        function displayBreadcrumbs () {
+            let parent = document.getElementById('parent');
+            
+            for (let i = 0; i < breadcrumbList.length; i++) {
+                // get variables from array
+                let item = breadcrumbList[i];
+                let breadcrumbName = item[0];
+                let breadcrumbPath = item[1];
+                document.getElementById("breadcrumb-name").innerHTML = breadcrumbName;
+                document.getElementById("breadcrumb-path").innerHTML = breadcrumbPath;
+
+                //push variables to HTML body
+                let li = document.createElement("li");
+
+                //previous pages
+                if (i < breadcrumbList.length - 1) {
+                    li.textContent = `<li class="breadcrumb-item"><a href="${breadcrumbPath}">${breadcrumbName}</a></li>`;
+                    parent.appendChild(li);
+                };
+
+                //current page
+                else {
+                    li.textContent = `<li class="breadcrumb-item active" aria-current="page">${breadcrumbName}</li>`;
+                    parent.appendChild(li);
+                };
+            };
+        };
+
+        // use stringify to enable array to be stored
+        localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
+
+    </script>
+
+</body>
