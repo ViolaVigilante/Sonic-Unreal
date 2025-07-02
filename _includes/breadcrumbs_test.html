@@ -20,13 +20,16 @@
     let breadcrumbList = JSON.parse(localStorage.getItem("storedBreadcrumbList")) || [];
 
     // Add current page to breadcrumb list
-    breadcrumbList.push([{{ page.title }}, {{page.permalink}}]);
+    breadcrumbList.push(["test1", "test2"]);
 
     // Limit to 8 items
     if (breadcrumbList.length > 8) {
       breadcrumbList.splice(0, 1);
     }
     // Save updated list
+    console.log("test");
+    console.log(breadcrumbList);
+    console.log(JSON.stringify(breadcrumbList));
     localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
 
     // Display breadcrumbs
