@@ -1,35 +1,35 @@
-<head>
-    <style>
-        .breadcrumbsArea {
-            padding: 70px;
-        }
-    </style>
-</head>
-
 <body>
-  <nav class="breadcrumbsArea" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <nav aria-label="breadcrumb">
     <h1>BREADCRUMBS TEST</h1>
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Data</li>
-    </ol>
+    <ol class="breadcrumb" id="parent"></ol>
   </nav>
+
+    <nav style="--bs-breadcrumb-divider: '>'; padding: 70px;" aria-label="breadcrumb">
+        <h1>BREADCRUMBS TEST W/O SCRIPT</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+    </nav>
+
 
   <script>
     let breadcrumbList = JSON.parse(localStorage.getItem("storedBreadcrumbList")) || [];
 
+    // Set Liquid variables as JS variables 
+    const pageTitle = "{{ page.title | escape }}";
+    const pagePermalink = "/Sonic-Unreal{{ page.permalink | escape }}";
+
     // Add current page to breadcrumb list
-    breadcrumbList.push(["test1", "test2"]);
+    breadcrumbList.push([pageTitle,pagePermalink]);
 
     // Limit to 8 items
     if (breadcrumbList.length > 8) {
       breadcrumbList.splice(0, 1);
     }
+    
     // Save updated list
-    console.log("test");
-    console.log(breadcrumbList);
-    console.log(JSON.stringify(breadcrumbList));
     localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
 
     // Display breadcrumbs
@@ -38,7 +38,7 @@
     breadcrumbList.forEach((item, index) => {
       const [name, path] = item;
       const li = document.createElement("li");
-      li.className = "breadcrumb-item";
+      // li.className = "breadcrumb-item";
 
       if (index < breadcrumbList.length - 1) {
         li.innerHTML = `<a href="${path}">${name}</a>`;

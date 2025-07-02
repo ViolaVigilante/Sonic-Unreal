@@ -3,6 +3,7 @@ layout: essay
 title : The (Un)Reality of Nightlife
 permalink: /unreality_nightlife
 hide: true
+bootstrap: true
 
 nightlife-track: true
 previous-nightlife-page: true
