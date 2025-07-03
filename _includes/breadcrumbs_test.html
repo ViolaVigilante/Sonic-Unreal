@@ -21,8 +21,15 @@
     const pageTitle = "{{ page.title | escape }}";
     const pagePermalink = "/Sonic-Unreal{{ page.permalink | escape }}";
 
-    // Add current page to breadcrumb list
-    breadcrumbList.push([pageTitle,pagePermalink]);
+    // Check for page refresh (is this page the same as the last page that was visited?)
+    const previousPageLog = breadcrumbList[breadcrumbList.length - 1];
+    const previousPageName = previousPageLog[0];
+    console.log(previousPageLog);
+    console.log(previousPageName);
+    if (previousPageName != pageTitle) {
+        // Add current page to breadcrumb list
+        breadcrumbList.push([pageTitle,pagePermalink]);
+    };
 
     // Limit to 8 items
     if (breadcrumbList.length > 8) {
