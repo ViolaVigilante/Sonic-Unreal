@@ -3,6 +3,7 @@ layout: essay
 title : Ingestion & Immersion
 permalink: /ingestion_immersion
 hide: true
+bootstrap: true
 
 nightlife-track: true
 next-nightlife-page: true
@@ -23,23 +24,184 @@ previous-immersion-page-destination: what_is_immersion
 tags: [Nightlife, Immersion]
 ---
 
-**This is a test essay for formatting experimentation**
+<head>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+    </script>
+</head>
 
-
+## This is a test essay for formatting experimentation<br><br><br>
 
 One chilly February evening, I found myself walking down a quiet street south of Los Angeles’ Koreatown neighborhood. A buzz in my pocket pulled my attention downwards, towards the texts from my friends asking when I would be arriving. With my eyes on my phone as I rounded the corner, I didn’t catch sight of the marquee until I was right underneath it.
 
-I stood at the entrance of the historic Catch One nightclub, a famous bastion of queer of color community organizing and one of the strongholds of early AIDS activism in LA – a fitting venue for tonight’s event, a historic building for a historic occasion. For the first time in the almost two years that I had been researching Los Angeles’ queer Asian American nightlife scene, a collaborative party was being thrown by several different community and presenting organizations. In the context of a scene that had been decimated by Covid and then had been regrowing in isolated patches throughout the LA metro area, this was a night full of excitement and optimism – two stages, five drag performers, ten DJs, an indoor night market, a pole dancing showcase, and installations by local artists and sex workers, all coming together to celebrate Lunar New Year.
-
-Posters for this event, which was titled “Dragon Fruit,” were created by LA and Tokyo-based designer and DJ Boneless Pizza (Figure 1). Designed in the style of a grocery store flyer, this poster featured performer headshots grafted onto various produce, seafood, and meat items accompanied by phonetic Chinese transliterations of the performers’ names – and, just in case there was any confusion, a parenthetical explanation of the true nature of the event in the top right corner (“it’s a party”). The use of grocery market imagery was fitting. Of the four organizations which had come together to produce this event, only one was not directly food related: QNA, a play on “queer and Asian.” Of the other three, one, Mayumi Market, regularly produces food-centric community markets; the other two, HOTPOT and Send Noodz, not only both include obvious culinary references in their names but are also well known for producing events which, in various ways, mix food and nightlife. Food imagery continued to be central even within the party itself – one performance, for instance, featured drag queens Bibi Discoteca and Miss Shu Mai (yes, named after the dim sum) both dressed as dragon fruit and eating an actual dragon fruit live on stage (Figure 2).
+<!-- Placing paragraph and image in Bootstrap grid for visual organization -->
+<div class="container">
+    <div class="row">
+        <div class="col">I stood at the entrance of the historic Catch One nightclub, a famous bastion of queer of color community organizing and one of the strongholds of early AIDS activism in LA – a fitting venue for tonight’s event, a historic building for a historic occasion. For the first time in the almost two years that I had been researching Los Angeles’ queer Asian American nightlife scene, a collaborative party was being thrown by several different community and presenting organizations. In the context of a scene that had been decimated by Covid and then had been regrowing in isolated patches throughout the LA metro area, this was a night full of excitement and optimism – two stages, five drag performers, ten DJs, an indoor night market, a pole dancing showcase, and installations by local artists and sex workers, all coming together to celebrate Lunar New Year.<br><br>Posters for this event, which was titled “Dragon Fruit,” were created by LA and Tokyo-based designer and DJ Boneless Pizza. Designed in the style of a grocery store flyer, this poster featured performer headshots grafted onto various produce, seafood, and meat items accompanied by phonetic Chinese transliterations of the performers’ names – and, just in case there was any confusion, a parenthetical explanation of the true nature of the event in the top right corner (“it’s a party”). The use of grocery market imagery was fitting. Of the four organizations which had come together to produce this event, only one was not directly food related: QNA, a play on “queer and Asian.” Of the other three, one, Mayumi Market, regularly produces food-centric community markets; the other two, HOTPOT and Send Noodz, not only both include obvious culinary references in their names but are also well known for producing events which, in various ways, mix food and nightlife. Food imagery continued to be central even within the party itself – one performance, for instance, featured drag queens Bibi Discoteca and Miss Shu Mai (yes, named after the dim sum) both dressed as dragon fruit and eating an actual dragon fruit live on stage (Figure 2).</div>
+        <div class="col">
+            <!-- Image trigger modal -->
+            <input type="image" src="/Sonic-Unreal/assets/img/posters/dragon_fruit_poster.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dragon_fruit_poster" style="border: unset; background-color: unset; display: block; margin-left: auto; margin-right: auto; width: 100%;">
+            <!-- Modal -->
+            <div class="modal fade" id="dragon_fruit_poster" tabindex="-1" aria-labelledby="Dragon Fruit Poster" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dragon Fruit Poster</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="image-display">
+                                        <img src="/Sonic-Unreal/assets/img/posters/dragon_fruit_poster.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="title-label" style="font-weight: bold; text-align: center;">
+                                        <p>Title</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="title-actual" style="text-align: left;">
+                                        <p>Dragon Fruit Poster</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="title-label" style="font-weight: bold; text-align: center;">
+                                        <p>Metadata Label 2</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="title-actual" style="text-align: left;">
+                                        <p>Metadata Item 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="title-label" style="font-weight: bold; text-align: center;">
+                                        <p>Metadata Label 3</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="title-actual" style="text-align: left;">
+                                        <p>Metadata Item 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="title-label" style="font-weight: bold; text-align: center;">
+                                        <p>Metadata Label 4</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="title-actual" style="text-align: left;">
+                                        <p>Metadata Item 4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 The centrality of food to this party was in no way an outlier in LA’s queer Asian American nightlife scene. From event series named after food, to elaborate food-based costumes, to events centering communal cooking and eating, to the use of food as props in drag shows and as prizes for runway competitions, to DJs regularly playing songs literally or metaphorically about food and tastes: food is baked into the performance aesthetics and social practices of this scene. The two K-pop songs from which the title of my talk today is drawn, aespa’s “Salty & Sweet” and “Spicy” from their 2023 album *MYWORLD*, were on regular rotation at many events I attended - including Boba, a weekly dance party in West Hollywood which had the tagline: “A new dance party with a taste of Asian excellence” (Figure 3). In short: food was in some way discursively, aesthetically, or materially central to the majority of Gaysian nightlife events I went to in LA between 2022 and 2024. It is worth noting as well that while the sheer number of ways in which food and nightlife intersect in the LA scene is remarkable, it is not limited to Los Angeles. Food-centric performers and presenters can be found in virtually every city with a sizeable Gaysian nightlife scene, from San Francisco’s Rice Rockettes to New York City’s BUBBLE_T.
 
-I’ll be using the term “Gaysian” throughout this talk, though this is just one of many labels used by people in the scene – alongside queer Asian, queer and Asian, queer Asian American, QTAPI, and many others. I do this for clarity’s sake and with reference to over half a century of women of color activism and scholarship which continues to remind us that identity categories are not simply additive; Gaysian is an emergent identity category that is not reducible to gay + Asian. It is also important to note that “Gaysian” is not a static term – the “gay” portion of the portmanteau has grown over the years to refer to a breadth of sexual and gender diverse experiences and identities which are not reducible to homosexuality (Figure 4).
+I’ll be using the term “Gaysian” throughout this talk, though this is just one of many labels used by people in the scene – alongside queer Asian, queer and Asian, queer Asian American, QTAPI, and many others. I do this for clarity’s sake and with reference to over half a century of women of color activism and scholarship which continues to remind us that identity categories are not simply additive; Gaysian is an emergent identity category that is not reducible to gay + Asian. It is also important to note that “Gaysian” is not a static term – the “gay” portion of the portmanteau has grown over the years to refer to a breadth of sexual and gender diverse experiences and identities which are not reducible to homosexuality.
+
+<!-- Image trigger modal -->
+<input type="image" src="/Sonic-Unreal/assets/img/fieldwork_images/gaysian_neon_sign.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gaysian_neon_sign" style="border: unset; background-color: unset; display: block; margin-left: auto; margin-right: auto; width: 75%;">
+<!-- Modal -->
+<div class="modal fade" id="gaysian_neon_sign" tabindex="-1" aria-labelledby="Gaysian Neon Sign" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">"Gaysian" Neon Sign</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="image-display">
+                            <img src="/Sonic-Unreal/assets/img/fieldwork_images/gaysian_neon_sign.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="title-label" style="font-weight: bold; text-align: center;">
+                            <p>Title</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="title-actual" style="text-align: left;">
+                            <p>"Gaysian" Neon Sign</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="title-label" style="font-weight: bold; text-align: center;">
+                            <p>Date</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="title-actual" style="text-align: left;">
+                            <p>February 10, 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="title-label" style="font-weight: bold; text-align: center;">
+                            <p>Location</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="title-actual" style="text-align: left;">
+                            <p>Micky's West Hollywood</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="title-label" style="font-weight: bold; text-align: center;">
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="title-actual" style="text-align: left;">
+                            <p>Nic Vigilante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
 
 The focus on food in Gaysian nightlife spaces might seem somewhat predictable or even commonsensical, given food’s centrality to Asian American identity and community building. Miss Shu Mai (梁燒賣)  – a Taiwanese-American drag queen and dance teacher as well as one of the founders of the Asian American drag troupe Send Noodz, and one of the two Dragon Fruit performers from earlier – summed up this perspective: 
 
-> Food in Asian culture plays a really really big role, because food is a big way we hold our culture and we share our culture, and also one of the ways where our people show love without saying the words. And I think that being able to incorporate and celebrate that and incorporate food from my culture to be able to do that, and use that in performances is a testament and how I celebrate my Asianness through my drag. And the second reason – it’s just funny! \[Laughs\] It’s just kinda stupid! 
+> "Food in Asian culture plays a really really big role, because food is a big way we hold our culture and we share our culture, and also one of the ways where our people show love without saying the words. And I think that being able to incorporate and celebrate that and incorporate food from my culture to be able to do that, and use that in performances is a testament and how I celebrate my Asianness through my drag. And the second reason – it’s just funny! \[Laughs\] It’s just kinda stupid!" 
 
 My goal today is not to deconstruct why food is central to LA’s Gaysian nightlife scene. The “why” here is self-evident to everyone I’ve spoken with in the scene: we’re Asian American, of *course* our social gatherings are going to revolve around food. Instead, I want to ask what these practices *do*. If it is always already a given that queer Asian American social gatherings will revolve around food, then in what ways is the socialness of Gaysian nightlife crafted through the discursive and material centering of food? What connections can we draw between food, queer Asian American performance aesthetics, and the efforts of Gaysian nightlife performers in contemporary Los Angeles to craft new communities in the wake of Covid?
 
@@ -50,6 +212,8 @@ In my talk today, I will argue that the answers to these questions lie at the lo
 From 2020 through 2022, Gaysian nightlife in LA was perpetually marked in its relationship to Covid. From virtual parties in 2020 to masked and outdoor nightlife events in 2021 and 2022 (Figures 5 and 6), this scene struggled to adapt to the evolving public health emergency and its discriminatory social contexts. The rise in anti-Asian hate during what the then-president of the United States called the “kung flu” spurred the growth of nightlife events by and for the Asian American community, as spaces of solidarity and community joy and healing in the face of immense external pressures and threats of violence. Quoted in a landmark *Los Angeles Times* article on the Gaysian nightlife scene in 2023, one of the founders of QNA – Jae-an – said: “In a time when there is anti-Asian hate and it feels like the whole world is crumbling … what’s more revolutionary politically than dancing, having a good time and loving one another?” (Park 2023). Danny Pham, founder of QT Nightlife and event organizer in San Francico and LA, put it simply during one of our conversations: “Let’s never live in fear.” 
 
 In this way, Gaysian nightlife, particularly since 2020, has always been about solidarity and community building. Nightlife, here, is a way of building chosen family – and food plays a critical role in this. The importance of food to Asian American communities has always been bound up not just with ethnic and diasporic identity but also with intergenerational and family bonds in particular. Caught in those interstices so familiar to queer people of color, between whitewashed queer communities and sexually conservative ethnic communities, food’s role in family-building is repurposed here from domestic to nightlife contexts. All of my own most memorable moments of finding family in this community have been through food: from making my grandmother’s inarizushi recipe for a potluck, to 4am tofu soup with friends after a night out clubbing. Food is not simply a marker of Asian Americanness in these contexts – as queer Asian American artists like Kitty Tsui have been reminding us for decades, food’s preparation, consumption, and metaphorization are distinctly queer processes (Tsui 1996).
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle popover</button>
 
 <p style="text-align:center">*****</p>
 
