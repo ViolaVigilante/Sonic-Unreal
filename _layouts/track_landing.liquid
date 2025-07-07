@@ -97,8 +97,18 @@ layout: default
             {% endif %}
         </div>
     </section>
-    <!-- Tag list for portfolio -->
-    {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}
-    {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}
-    {{ _tags | split: " " | join: " " }}
+
+    <!-- Tag Cloud -->
+    <div class="container" style="background-color:coral;">
+        <div class="row">
+            <div class="col">
+                <h3 style="text-align: center;">Explore Within This Track</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="text-align: center;">Display cloud of clickable tags present within this track</p>
+            </div>
+        </div>
+    </div>
 </article>
