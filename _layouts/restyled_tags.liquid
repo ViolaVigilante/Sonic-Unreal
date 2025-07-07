@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+<div class="home">
+
+    <!-- cycles through posts to get tags -->
+    {% assign rawtags = "" %}
+    {% for post in site.posts %}
+    {% if post.tags.size > 0 %}
+    {% assign post_tags = post.tags | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:post_tags %}
+    {% endif %}
+    {% endfor %}
+
+    <!-- cycles through portfolio collection to get tags -->
+    {% assign portfolio = site.portfolio | map: 'tags' | join: ',' | split: ',' | uniq %}
+    {% for tag in portfolio %}
+    {% assign portfolio_tags = tag | join: '|' | append: '|' %}
+    {% assign rawtags = rawtags | append: portfolio_tags %}
+    {% endfor %}
+
+    <!-- cycles through pages to get tags -->
+    {% for page in site.pages %}
+    {% if page.tags.size > 0 %}
+    {% assign page_tags = page.tags | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:page_tags %}
+    {% endif %}
+    {% endfor %}
+
+    <!-- Displays the list of tags-->
+    {% include default/tags_list.liquid tags=rawtags %}
+
+</div>
