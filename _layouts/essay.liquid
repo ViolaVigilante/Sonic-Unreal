@@ -1,11 +1,21 @@
 ---
 layout: default
 ---
+
 <head>
-    <script>
-        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
-    </script>
+    <style>
+        .btn {
+            cursor: pointer;
+            -webkit-transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease;
+        }
+
+        .btn:hover{
+            transform: scale(1.05);
+            background-color: bisque;
+        }
+    </style>
 </head>
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
@@ -109,3 +119,8 @@ layout: default
     {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}
     {{ _tags | split: " " | join: " " }}
 </article>
+
+<script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+</script>

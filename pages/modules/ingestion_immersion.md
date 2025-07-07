@@ -3,7 +3,6 @@ layout: essay
 title : Ingestion & Immersion
 permalink: /ingestion_immersion
 hide: true
-bootstrap: true
 
 nightlife-track: true
 next-nightlife-page: true
@@ -76,15 +75,11 @@ tags: [Nightlife, Immersion]
         }
     </style>
     <script>
-        /* JS for Bootstrap popovers - trying to call this in essay layout instead of here
-        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));*/
-        //
         // JS for standard popups
         function myFunction(event) {
             event.target.children[0].classList.toggle("show");
         }
-    </script>
+    </script> 
 </head>
 
 ## This is a test essay for formatting experimentation<br><br><br>
@@ -431,6 +426,8 @@ In my talk today, I will argue that the answers to these questions lie at the lo
 From 2020 through 2022, Gaysian nightlife in LA was perpetually marked in its relationship to Covid. From virtual parties in 2020 to masked and outdoor nightlife events in 2021 and 2022 (Figures 5 and 6), this scene struggled to adapt to the evolving public health emergency and its discriminatory social contexts. The rise in anti-Asian hate during what the then-president of the United States called the “kung flu” spurred the growth of nightlife events by and for the Asian American community, as spaces of solidarity and community joy and healing in the face of immense external pressures and threats of violence. Quoted in a <a href="https://www.latimes.com/california/story/2023-07-17/a-night-at-the-club-where-queer-asian-americans-no-longer-feel-like-the-black-sheep" target="_blank">landmark *Los Angeles Times* article</a> on the Gaysian nightlife scene in 2023, one of the founders of QNA – Jae-an – said: “In a time when there is anti-Asian hate and it feels like the whole world is crumbling … what’s more revolutionary politically than dancing, having a good time and loving one another?” <a class="popup" onclick="myFunction(event)">(Park 2023)<span class="popuptext">Park, Jeong. 2023. “A Night at the Club Where Queer Asian Americans No Longer Feel like ‘black Sheep’.” <i>Los Angeles Times</i>, July 17. https://www.latimes.com/california/story/2023-07-17/a-night-at-the-club-where-queer-asian-americans-no-longer-feel-like-the-black-sheep.</span></a>. Danny Pham, founder of <a href="https://www.instagram.com/qtnightlife" target="_blank">QT Nightlife</a> and event organizer in San Francisco and LA, put it simply during one of our conversations: “Let’s never live in fear.” 
 
 In this way, Gaysian nightlife, particularly since 2020, has always been about solidarity and community building. Nightlife, here, is a way of building chosen family – and food plays a critical role in this. The importance of food to Asian American communities has always been bound up not just with ethnic and diasporic identity but also with intergenerational and family bonds in particular. Caught in those interstices so familiar to queer people of color, between whitewashed queer communities and sexually conservative ethnic communities, food’s role in family-building is repurposed here from domestic to nightlife contexts. All of my own most memorable moments of finding family in this community have been through food: from making my grandmother’s inarizushi recipe for a potluck, to 4am tofu soup with friends after a night out clubbing. Food is not simply a marker of Asian Americanness in these contexts – as queer Asian American artists like Kitty Tsui have been reminding us for decades, food’s preparation, consumption, and metaphorization are distinctly queer processes <!-- Popup needs to be anchor rather than div to prevent line breaks --><a class="popup" onclick="myFunction(event)">(Tsui 1996)<span class="popuptext">Tsui, Kitty. 1996. <i>Breathless</i>. Ithaca, NY: Firebrand Books.</span></a>.
+
+<a class="citation_popup" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="Tsui, Kitty. 1996. <i>Breathless</i>. Ithaca, NY: Firebrand Books.">(Tsui 1996)</a>
 
 <h2>Broken button for testing</h2>
 <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle popover</button>
