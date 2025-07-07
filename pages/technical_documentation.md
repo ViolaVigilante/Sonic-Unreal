@@ -21,4 +21,7 @@ hide: true
 * When embedding images in pages, path must be relative to that specific page (rather than starting from root directory).
 
 ## Credits
-This site was made using [Jekyll](https://jekyllrb.com/) with the [Type-on-Strap](https://github.com/sylhare/Type-on-Strap/) theme and is hosted using [GitHub Pages](https://pages.github.com/).
+This site was made using [Jekyll](https://jekyllrb.com/) with the [Type-on-Strap](https://github.com/sylhare/Type-on-Strap/) theme and is hosted using [GitHub Pages](https://pages.github.com/). Some functionality is provided by [Bootstrap](https://getbootstrap.com/).
+
+Fonts used:
+- **Recently visited pages display**: Mulish - Designed by Vernon Adams, Cyreal, and Jacques Le Bailly. Used under SIL Open Font License, Version 1.1. Available at https://fonts.google.com/specimen/Mulish
