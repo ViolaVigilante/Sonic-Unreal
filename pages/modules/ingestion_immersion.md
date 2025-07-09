@@ -95,7 +95,7 @@ Posters for this event, which was titled “Dragon Fruit,” were created by LA 
     <div class="row">
         <div class="col-7">
             <!-- Image trigger modal -->
-            <input type="image" src="/Sonic-Unreal/assets/img/posters/dragon_fruit_poster.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dragon_fruit_poster" style="border: unset; background-color: unset; display: block; margin-left: auto; margin-right: auto; width: 100%;">
+            <input type="image" src="/Sonic-Unreal/assets/img/nightlife_posters/dragon_fruit_poster.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dragon_fruit_poster" style="border: unset; background-color: unset; display: block; margin-left: auto; margin-right: auto; width: 100%;">
             <!-- Modal -->
             <div class="modal fade" id="dragon_fruit_poster" tabindex="-1" aria-labelledby="Dragon Fruit Poster" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -109,7 +109,7 @@ Posters for this event, which was titled “Dragon Fruit,” were created by LA 
                             <div class="row">
                                 <div class="col">
                                     <div class="image-display">
-                                        <img src="/Sonic-Unreal/assets/img/posters/dragon_fruit_poster.jpg">
+                                        <img src="/Sonic-Unreal/assets/img/nightlife_posters/dragon_fruit_poster.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@ Posters for this event, which was titled “Dragon Fruit,” were created by LA 
         <div class="col-8">The centrality of food to this party was in no way an outlier in LA’s queer Asian American nightlife scene. From event series named after food, to elaborate food-based costumes, to events centering communal cooking and eating, to the use of food as props in drag shows and as prizes for runway competitions, to DJs regularly playing songs literally or metaphorically about food and tastes: food is baked into the performance aesthetics and social practices of this scene. The two K-pop songs from which the title of my talk today is drawn, aespa’s “Salty & Sweet” and “Spicy” from their 2023 album <i>MYWORLD</i>, were on regular rotation at many events I attended - including Boba, a weekly dance party in West Hollywood which had the tagline: “A new dance party with a taste of Asian excellence.” In short: food was in some way discursively, aesthetically, or materially central to the majority of Gaysian nightlife events I went to in LA between 2022 and 2024. It is worth noting as well that while the sheer number of ways in which food and nightlife intersect in the LA scene is remarkable, it is not limited to Los Angeles. Food-centric performers and presenters can be found in virtually every city with a sizeable Gaysian nightlife scene, from <a href="https://www.instagram.com/ricerockettes/?hl=en" target="_blank">San Francisco’s Rice Rockettes</a> to <a href="https://www.instagram.com/bubble____t/?hl=en" target="_blank">New York City’s BUBBLE_T.</a></div>
         <div class="col-4">
             <!-- Image trigger modal -->
-            <input type="image" src="/Sonic-Unreal/assets/img/posters/boba_5-9-2024_poster.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#boba_5-9-2024_poster" style="border: unset; background-color: unset; display: block; margin-left: auto; margin-right: auto; width: 100%;">
+            <input type="image" src="/Sonic-Unreal/assets/img/nightlife_posters/boba_5-9-2024_poster.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#boba_5-9-2024_poster" style="border: unset; background-color: unset; display: block; margin-left: auto; margin-right: auto; width: 100%;">
             <!-- Modal -->
             <div class="modal fade" id="boba_5-9-2024_poster" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -271,7 +271,7 @@ Posters for this event, which was titled “Dragon Fruit,” were created by LA 
                                 <div class="row">
                                     <div class="col">
                                         <div class="image-display">
-                                            <img src="/Sonic-Unreal/assets/img/posters/boba_5-9-2024_poster.jpg">
+                                            <img src="/Sonic-Unreal/assets/img/nightlife_posters/boba_5-9-2024_poster.jpg">
                                         </div>
                                     </div>
                                 </div>
