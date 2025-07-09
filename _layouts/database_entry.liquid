@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+    <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
+        <div class="title-padder">
+            {% if page.hide_title %}
+                <div class="feature-image-padding"></div>
+            {% else %}
+                <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title"> {{ page.title }}</h1>
+                {% if page.subtitle %}
+                    <h2 class="subtitle">{{ page.subtitle }}</h2>
+                {% endif %}
+            {% endif %}
+        </div>
+    </header>
+
+    <!-- Display Poster -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <img src="{{ page.poster }}" style="display: block; margin: auto; width: 100%;">
+                </div>
+                <div class="col-2">
+                    <h3>METADATA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="post-content">
+    {% if page.bootstrap %}
+        <div class="bootstrap-iso">
+            {% endif %}
+            {{ content }}
+            {% if page.bootstrap %}
+        </div>
+        {% endif %}
+    </section>
+</article>
