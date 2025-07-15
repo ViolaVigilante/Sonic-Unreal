@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
 
     <!-- Theme Mode-->
-    <script>
+    <!-- COMMENTING OUT DARK/LIGHT MODE TOGGLE <script>
         const darkBtn = "{{ site.data.language.str_dark | default: "Dark" }}";
         const lightBtn = "{{ site.data.language.str_light | default: "Light" }}";
         const isAutoTheme = {% if site.color_theme == 'auto' %}true{% else %}false{% endif %};
@@ -13,7 +13,7 @@
         } else {
             document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}");
         }
-    </script>
+    </script> -->
 
     <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
     <script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
