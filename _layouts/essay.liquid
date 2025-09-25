@@ -32,6 +32,11 @@ layout: default
         </div>
     </header>
 
+    <!-- Tag list for portfolio -->
+    {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}
+    {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}
+    {{ _tags | split: " " | join: " " }}
+
     <!-- Breadcrumbs display -->
     {% include breadcrumbs.html %}
 
@@ -114,10 +119,6 @@ layout: default
             {% endif %}
         </div>
     </section>
-    <!-- Tag list for portfolio -->
-    {% capture tag_list %}{{ page.tags | join: "|" }}{% endcapture %}
-    {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}
-    {{ _tags | split: " " | join: " " }}
 </article>
 
 <script>
