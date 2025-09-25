@@ -3,67 +3,119 @@ layout: default
 ---
 <head>
     <style>
+        #home-buttons {
+            width: 60%; 
+            font-size: calc(1.15rem + 1.5vw);
+            text-align: center;
+            cursor: pointer;
+        }
+
+        #introduction {
+            background-image: url("assets/img/fieldwork_images/disco_balls_switch.jpg");
+            background-size: cover;
+            border-radius: 50%;
+            transition: transform 0.4s;
+            aspect-ratio: 3 / 1;
+            padding: 20px 0 20px 0;
+        }
+
+        #technical-documentation {
+            background-image: url("assets/img/fieldwork_images/incalls_only_disco_ball_1.jpg");
+            background-size: cover;
+            border-radius: 50%;
+            transition: transform 0.4s;
+            aspect-ratio: 3 / 1;
+        }
+
+        #introduction:hover {
+            -ms-transform: scale(1.3); /* Internet Explorer */
+            -webkit-transform: scale(1.3); /* Safari */
+            transform: scale(1.3);
+        }
+
+        #technical-documentation:hover {
+            -ms-transform: scale(1.3); /* Internet Explorer */
+            -webkit-transform: scale(1.3); /* Safari */
+            transform: scale(1.3);
+        }
+        
     </style>
 </head>
 
-<div class="home">
-    <style scoped>
-        {% assign image = site.header_feature_image | relative_url | split: '.' %}
-        .call-out_img {
-            background-image: url('assets/img/fieldwork_images/disco_balls_switch.jpg{{ image | join: '.' }}');
-        }
-        {% if site.header_feature_image_responsive %}
-        @media screen and (max-width: 768px) {
-            .call-out_img {
-                background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image}}');
-            }
-        }
-        @media screen and (max-width: 576px) {
-            .call-out_img {
-                background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');
-            }
-        }
-        {% endif %}
-    </style>
-    <div id="main" class="call-out call-out_img">
-        <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
-    </div>
-</div>
-<div>
-
-
-<div class="home-page-links">
-    <img src="assets/img/fieldwork_images/disco_balls_switch.jpg" style="width: 100vw; height: 200px;">
-</div>
+<body>
     
+    <!-- Home page image banner -->
+    <div class="home">
+        <style scoped>
+            {% assign image = site.header_feature_image | relative_url | split: '.' %}
+            .call-out_img {
+                background-image: url('assets/img/fieldwork_images/disco_balls_switch.jpg{{ image | join: '.' }}');
+            }
+            {% if site.header_feature_image_responsive %}
+            @media screen and (max-width: 768px) {
+                .call-out_img {
+                    background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image}}');
+                }
+            }
+            @media screen and (max-width: 576px) {
+                .call-out_img {
+                    background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');
+                }
+            }
+            {% endif %}
+        </style>
+        <div id="main" class="call-out call-out_img">
+            <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
+        </div>
+    </div>
+    
+    <h3 style="text-align: center; padding: 20px 0 0 0;">INSERT SITE BLURB HERE</h3>
+    <p style="display: block; margin: auto; text-align: center; width: 65%; padding: 25px;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
 
+    <div class="container-fluid" id="home-buttons">
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <h3 style="text-align: center;">INSERT SITE BLURB HERE</h3>
-            <p style="display: block; margin: auto; text-align: center; width: 50%;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <!-- Empty row for padding between buttons -->
+        <div class="row" style="height: 50px;"></div>
+
+        <div class="row" id="introduction">
+            <a role="button" href="introduction/" style="color: white; text-decoration: none;">Introduction</a>
+        </div>
+
+        <!-- Empty row for padding between buttons -->
+        <div class="row" style="height: 50px;"></div>
+
+        <div class="row" id="technical-documentation">
+            <a role="button" href="technical_documentation/" style="color: white; text-decoration: none;">Technical Documentation</a>
+        </div>
+
+    </div>
+
+        
+
+<!-- The bootstrap container isn't playing nicely with the full-screen-width buttons above - probably need to get rid of one or the other
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <a role="button" class="btn btn-warning btn-lg" href="first_time/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">If this is your first time using this site, click here</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a role="button" class="btn btn-info btn-lg" href="introduction/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">INTRODUCTION</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a role="button" class="btn btn-secondary btn-lg" href="technical_documentation/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">TECHNICAL DOCUMENTATION</a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-secondary btn-lg" href="acknowledgements/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">ACKNOWLEDGEMENTS</a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-secondary btn-lg" href="how_to_cite/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">HOW TO CITE</a>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <a role="button" class="btn btn-warning btn-lg" href="first_time/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">If this is your first time using this site, click here</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <a role="button" class="btn btn-info btn-lg" href="introduction/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">INTRODUCTION</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <a role="button" class="btn btn-secondary btn-lg" href="technical_documentation/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">TECHNICAL DOCUMENTATION</a>
-        </div>
-        <div class="col">
-            <a role="button" class="btn btn-secondary btn-lg" href="acknowledgements/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">ACKNOWLEDGEMENTS</a>
-        </div>
-        <div class="col">
-            <a role="button" class="btn btn-secondary btn-lg" href="how_to_cite/" style="display: block; margin: auto; width: 60%; height: 150px; line-height: 150px; padding: 0;">HOW TO CITE</a>
-        </div>
-    </div>
-</div>
+-->
+
+</body>
