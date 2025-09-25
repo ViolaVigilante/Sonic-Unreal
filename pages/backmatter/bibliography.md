@@ -9,6 +9,7 @@ Ahmed, Sara. 2010. *The Promise of Happiness*. Durham, NC: Duke University Press
 Barad, Karen. 2007. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham, NC: Duke University Press.
 
 Chambers-Letson, Joshua. 2018. *After the Party: A Manifesto for Queer of Color Life*. New York: New York University Press.
+
 Cheng, Anne Anlin. 2019. Ornamentalism. New York: Oxford University Press.
 
 Garcia-Mispireta, Luis-Manuel. 2023. *Together, Somehow: Music, Affect, and Intimacy on the Dancefloor*. Durham, NC: Duke University Press.
