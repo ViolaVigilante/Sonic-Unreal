@@ -13,6 +13,13 @@
   <script>
     let breadcrumbList = JSON.parse(localStorage.getItem("storedBreadcrumbList")) || [];
 
+    // Initialize array with placeholder key-value pair (needed for the page refresh check below to work, not sure why)
+    var placeholder_present = false;
+    if (breadcrumbList.length === 0) {
+      breadcrumbList.push(["placeholder_key","placeholder_value"]);
+      var placeholder_present = true;
+    };
+
     // Set Liquid variables as JS variables 
     const pageTitle = "{{ page.title | escape }}";
     const pagePermalink = "/Sonic-Unreal{{ page.permalink | escape }}";
@@ -20,11 +27,15 @@
     // Check for page refresh (is this page the same as the last page that was visited?)
     const previousPageLog = breadcrumbList[breadcrumbList.length - 1];
     const previousPageName = previousPageLog[0];
-    console.log(previousPageLog);
-    console.log(previousPageName);
-    if (previousPageName != pageTitle) {
+
+    if (previousPageName != pageTitle || previousPageLog === undefined) {
         // Add current page to breadcrumb list
         breadcrumbList.push([pageTitle,pagePermalink]);
+    };
+
+    // Remove placeholder key-value pair, if present
+    if (placeholder_present == true) {
+      breadcrumbList.shift();
     };
 
     // Limit to 8 items
