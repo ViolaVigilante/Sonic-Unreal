@@ -32,6 +32,7 @@
             border-radius: 50%;
             padding: 15px;
             font-size: 1.1em;
+            transition: transform 0.5s;
         }
 
         .label {
@@ -39,6 +40,10 @@
             background-color: #270132; 
             border-radius: 50%;
             font-size: 3em;
+        }
+
+        .button:hover{
+            background-color: #48085a;
         }
     </style>
 </head>
@@ -55,7 +60,7 @@
             <a type="button" onclick="location.href='{{ page.next-nightlife-page-destination }}'">{{ page.next-nightlife-page-title }}</a>
         </div>
         <div class="label">
-            🡐
+            <a type="button" onclick="location.href='{{ page.previous-nightlife-page-destination }}'">🡐</a>
         </div>
         <div class="label">
             <a type="button" onclick="location.href='{{ page.next-nightlife-page-destination }}'">🡒</a>
