@@ -5,24 +5,40 @@
             margin-top: 30px;
             margin-bottom: 30px;
             grid-template-columns: auto auto;
-            background-color:silver;
+            background-image: url("assets/img/fieldwork_images/daft_punk_fortnite_disco_ball_cropped_2.jpg");
+            background-size: cover;
+            background-position: center top;
+            border-radius: 50%;
             padding-bottom: 6%;
+            color: white;
         }
 
         .title_double {
             grid-column-start: 1;
             grid-column-end: 3;
             justify-self: center;
+            background-color: #270132; 
+            border-radius: 50%;
+            padding: 7px;
+            font-size: 1.5em;
         }
 
         .button {
             flex: 50%;
             justify-self: center;
             border: none;
+            background-color: #270132;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 1.1em;
         }
 
         .label {
             justify-self: center;
+            background-color: #270132; 
+            border-radius: 50%;
+            font-size: 3em;
         }
     </style>
 </head>
@@ -33,16 +49,16 @@
             <h2>Nightlife Track</h2>
         </div>
         <div class="button">
-            <button type="button" onclick="location.href='{{ page.previous-nightlife-page-destination }}'">{{ page.previous-nightlife-page-title }}</button>
+            <a type="button" onclick="location.href='{{ page.previous-nightlife-page-destination }}'">{{ page.previous-nightlife-page-title }}</a>
         </div>
         <div class="button">
-            <button type="button" onclick="location.href='{{ page.next-nightlife-page-destination }}'">{{ page.next-nightlife-page-title }}</button>
+            <a type="button" onclick="location.href='{{ page.next-nightlife-page-destination }}'">{{ page.next-nightlife-page-title }}</a>
         </div>
         <div class="label">
-            PREVIOUS PAGE
+            🡐
         </div>
         <div class="label">
-            NEXT PAGE
+            <a type="button" onclick="location.href='{{ page.next-nightlife-page-destination }}'">🡒</a>
         </div>
     </div>
 </body>
