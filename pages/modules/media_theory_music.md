@@ -4,7 +4,7 @@ title : A Media Theory of Music
 permalink: /media_theory_music
 hide: true
 
-
+virtual-concerts-track: true
 previous-virtual-concerts-page: true
 previous-virtual-concerts-page-title: Queer Maximalism
 previous-virtual-concerts-page-destination: queer_maximalism
