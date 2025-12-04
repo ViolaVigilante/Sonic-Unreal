@@ -5,6 +5,14 @@
     https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
 -->
 <html lang="en">
+  <head>
+    <script>
+      function myFunction(event) {
+          event.target.children[0].classList.toggle("show");
+      }
+    </script>
+  </head>  
+
   {% capture _head %}{% include default/head.liquid %}{% endcapture %}
   {{ _head | split: " " | join: " "}}
   <body>
