@@ -10,7 +10,7 @@ Barad, Karen. 2007. *Meeting the Universe Halfway: Quantum Physics and the Entan
 
 Chambers-Letson, Joshua. 2018. *After the Party: A Manifesto for Queer of Color Life*. New York: New York University Press.
 
-Cheng, Anne Anlin. 2019. Ornamentalism. New York: Oxford University Press.
+Cheng, Anne Anlin. 2019. *Ornamentalism*. New York: Oxford University Press.
 
 Fickle, Tara. 2021. “Made in China: Gold Farming as Alternative History of Esports.” *ROMchip: A Journal of Game Histories* 3(1). https://www.romchip.org/index.php/romchip-journal/article/view/132.
 
