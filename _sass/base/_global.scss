@@ -348,6 +348,7 @@ details {
 
 /* The code below is identical to above, excep the class has been renamed to .popup-citation. This is necessary to have different color text highlights for citation popups and comment popups.*/
 .popup-citation {
+    text-decoration: none;
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -399,4 +400,28 @@ details {
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+//
+//
+//
+//
+//
+//
+
+/* Testing hover citation popups */
+#citation {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+}
+
+#citation p {
+  display: none;
+  padding-left: 30px;
+}
+
+#citation:hover p {
+  display: block;
+  background-color: blue;
 }
