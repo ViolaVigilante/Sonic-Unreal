@@ -1,9 +1,9 @@
 --- 
 layout: essay
-title : Esports Infrastructures
-permalink: /esports-infrastructures
+title : Sports which Happen to be Electronic
+permalink: /sports-which-happen-to-be-electronic
 hide: true
-tags: [Esports]
+tags: []
 ---
 
 <style>
@@ -170,9 +170,17 @@ tags: [Esports]
 
 <body>
 
+<br><br>
+The idea that esports are “new sports which happen to be electronic” represents a relatively flexible definition of sports, in which “sports” as an overarching category is open to expansion and redefinition. This is, of course, consistent with the history of sporting as a human enterprise; sports and the boundaries between them are historically and culturally contingent <a class="popup-citation" onclick="myFunction(event)">(Besnier & Brownell 2012)<span class="popuptext">Besnier, Niko, and Susan Brownell. 2012. “Sport, Modernity, and the Body.” <i>Annual Review of Anthropology</i> 41: 443–59. https://doi.org/10.1146/annurev-anthro-092611-145934.</span></a>.
+<br><br>
+What this perspective misses, however, is that almost all contemporary sports are electronic in some way - and, more broadly, all sports have always been technologically mediated. In professional American football, for example, scores and replays are shown on a megatron; the game is broadcast via television and radio; announcers’ voices are electronically amplified; wireless communication technologies enable coaches to talk to players on the field; video replay is used to verify the decisions made by the referees; players’ training is planned, tracked, and enabled by a variety of electronic technologies; and on and on. As Mary G. McDonald and Jennifer J. Sterling have noted, “what is now largely recognized as sport - organized, competitive, rule-bounded, and physical - emerged as an effect of various technoscientific developments…. [T]echnoscience - as an array of cultural and material practices - conjoins with bodies and systems to constitute sport” <a class="popup-citation" onclick="myFunction(event)">(McDonald & Sterling 2022)<span class="popuptext">McDonald, Mary G., and Jennifer J. Sterling. 2022. “Sport, Science, and Technology.” In <i>The Oxford Handbook of Sport and Society</i>, edited by Lawrence A. Wenner. Oxford University Press. 438. https://doi.org/10.1093/oxfordhb/9780197519011.013.23.</span></a>.
+<br><br>
+The key takeaway is this: It is inaccurate to claim that esports are simply electronic sports (as <a href="/Sonic-Unreal/e-sports-vs-esports">the “e-sports” abbreviation</a> suggests) and that traditional sports are, by contrast, not electronic. The two categories incorporate electronic technologies in different ways and to different degrees, and with a significant amount of internal variation within each category, but a clear-cut distinction is impossible to draw.
+<br><br>
+
     <br>
     <div class="button_container">
-        <button class="esports_return_to_hub" onclick="location.href='/Sonic-Unreal/esports'">
+        <button class="esports_return_to_hub" onclick="location.href='/Sonic-Unreal/are-esports-sports'">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 43">
                 <polygon 
                 points="26.42,4.46 21.89,0 0,21.5 21.89,43 26.42,38.54 9.06,21.5"
@@ -184,7 +192,7 @@ tags: [Esports]
                 points="66,4.46 61.47,0 39.58,21.5 61.47,43 66,38.54 48.64,21.5"
                 ></polygon>
             </svg>
-            <span>Return to Esports Hub</span>
+            <span>Return to "Are Esports Sports?"</span>
         </button> 
     </div>
 </body>
