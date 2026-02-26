@@ -292,16 +292,16 @@ details {
 //
 //
 // Custom CSS
-.popup {
+.popup-comment {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    background: beige;
+    background: #d4eaff;
     color: black;
 }
 
 /* The actual popup (appears on top) */
-.popup .popuptext {
+.popup-comment .popuptext {
     visibility: hidden;
     width: 400px;
     background-color: #555;
@@ -317,7 +317,7 @@ details {
 }
 
 /* Popup arrow */
-.popup .popuptext::after {
+.popup-comment .popuptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -329,7 +329,62 @@ details {
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
+.popup-comment .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/* The code below is identical to above, excep the class has been renamed to .popup-citation. This is necessary to have different color text highlights for citation popups and comment popups.*/
+.popup-citation {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: beige;
+    color: black;
+}
+
+/* The actual popup (appears on top) */
+.popup-citation .popuptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+/* Popup arrow */
+.popup-citation .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup-citation .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
