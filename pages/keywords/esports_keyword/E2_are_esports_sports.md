@@ -3,7 +3,7 @@ layout: essay
 title : Are Esports Sports?
 permalink: /are-esports-sports
 hide: true
-tags: [Esports]
+tags: []
 ---
 
 <style>
@@ -176,6 +176,10 @@ tags: [Esports]
         <li><a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/electronic-versions-of-traditional-sports'>Electronic Versions of Traditional Sports</a>">Electronic versions of traditional sports</a></li>
         <li><a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/sports-which-happen-to-be-electronic'>Sports which Happen to be Electronic</a>">Sports which happen to be electronic in nature</a></li>
     </ul>
+    Of course, these two possibilities oversimplify what is a complex and controversial question. The term “sports” itself is an umbrella category which encompasses a number of heterogeneous cultural practices; these practices are supported and sustained by a variety of technical, material, and financial instructures, some of which are shared closely with esports. Two of the most common ways in which “sports” are defined - physicality of play and fandoms - have complex interrelations with esports, which themselves are grounded in the physical actions of players and surrounded by deep ecosystems of fandom.
+    <br><br>
+    I do not offer an answer to the question of whether esports are sports. <a class="popup-comment" data-bs-toggle="popover" data-bs-html="true" data-bs-title="See, for example:" data-bs-content="<a target='_blank' href='https://doi.org/10.26503/dl.v2013i1.644'>Ferrari, Simon. 2013. “eSport and the Human Body: Foundations for a Popular Aesthetics.” In <i>Proceedings of DiGRA 2013: DeFragging Game Studies</i>.</a><br><br><a target='_blank' href='https://doi.org/10.1080/16138171.2018.1559019'>Thiel, Ansgar, and Jannika M. John. 2018. “Is eSport a ‘Real’ Sport? Reflections on the Spread of Virtual Competitions.” <i>European Journal for Sport and Society</i> 15(4):311–15.</a><br><br><a target='_blank' href='https://doi.org/10.1080/17511321.2018.1489419'>Parry, Jim. 2018. “E-Sports Are Not Sports.” <i>Sport, Ethics and Philosophy</i> 13(1):3-18.</a><br><br><a target='_blank' href='https://doi.org/10.18060/24812'>Naraine, Michael L. 2021. “Actually, Esports Is Sport: A Response to Parry’s (2019) Misguided View.” <i>Sports Innovation Journal</i> 2:33–44.</a>">Much ink has been spilled, often with significant vitriol, on both sides of the argument.</a> Understanding what is at stake when this question is asked, however, and how participants and commentators (and even <a class="popup-citation" onmouseover="myFunction(event)" onmouseout="myFunction(event)" href="https://doi.org/10.1123/jege.2023-0018" target="_blank">courts<span class="popuptext">Fried, Gil. 2023. “Esports Minus Sport?” <i>Journal of Electronic Gaming and Esports</i> 1(1).</span></a>) have attempted to answer it, can help us better understand this complex, hazily-defined thing we call <em>esports</em>.
+
 
     <br><br><br>
     <div class="button_container">
