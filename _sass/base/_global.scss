@@ -294,7 +294,7 @@ details {
 // Custom CSS
 .popup-comment {
     position: relative;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     background: #d4eaff;
     color: black;
@@ -351,7 +351,7 @@ details {
 .popup-citation {
     text-decoration: none;
     position: relative;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     background: beige;
     color: black;
@@ -432,7 +432,7 @@ details {
 .popup-hyperlink {
     text-decoration: none;
     position: relative;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     background: #ffd9f6;
     color: black;
