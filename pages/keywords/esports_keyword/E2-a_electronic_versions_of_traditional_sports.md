@@ -1,9 +1,9 @@
 --- 
 layout: essay
-title : Are Esports Sports?
-permalink: /are-esports-sports
+title : Electronic Versions of Traditional Sports
+permalink: /electronic-versions-of-traditional-sports
 hide: true
-tags: [Esports]
+tags: []
 ---
 
 <style>
@@ -170,12 +170,6 @@ tags: [Esports]
 
 <body>
     <br><br>
-    Central to the naming of esports - and centered through orthographic conventions such as <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/e-sports-vs-esports'>E-Sports vs. Esports</a>">e-sports and eSports</a> - is an understanding of these practices as somehow related to what we might call “traditional” sports. Based on name alone, we might assume that this relationship takes one (or both) of the following forms:
-    <br>
-    <ul>
-        <li><a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/electronic-versions-of-traditional-sports'>Electronic Versions of Traditional Sports</a>">Electronic versions of traditional sports</a></li>
-        <li><a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/sports-which-happen-to-be-electronic'>Sports which Happen to be Electronic</a>">Sports which happen to be electronic in nature</a></li>
-    </ul>
 
     <br><br><br>
     <div class="button_container">
