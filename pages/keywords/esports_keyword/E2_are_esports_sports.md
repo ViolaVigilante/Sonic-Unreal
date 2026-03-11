@@ -180,7 +180,39 @@ tags: []
     <br><br>
     I do not offer an answer to the question of whether esports are sports. <a class="popup-comment" data-bs-toggle="popover" data-bs-html="true" data-bs-title="See, for example:" data-bs-content="<a target='_blank' href='https://doi.org/10.26503/dl.v2013i1.644'>Ferrari, Simon. 2013. “eSport and the Human Body: Foundations for a Popular Aesthetics.” In <i>Proceedings of DiGRA 2013: DeFragging Game Studies</i>.</a><br><br><a target='_blank' href='https://doi.org/10.1080/16138171.2018.1559019'>Thiel, Ansgar, and Jannika M. John. 2018. “Is eSport a ‘Real’ Sport? Reflections on the Spread of Virtual Competitions.” <i>European Journal for Sport and Society</i> 15(4):311–15.</a><br><br><a target='_blank' href='https://doi.org/10.1080/17511321.2018.1489419'>Parry, Jim. 2018. “E-Sports Are Not Sports.” <i>Sport, Ethics and Philosophy</i> 13(1):3-18.</a><br><br><a target='_blank' href='https://doi.org/10.18060/24812'>Naraine, Michael L. 2021. “Actually, Esports Is Sport: A Response to Parry’s (2019) Misguided View.” <i>Sports Innovation Journal</i> 2:33–44.</a>">Much ink has been spilled, often with significant vitriol, on both sides of the argument.</a> Understanding what is at stake when this question is asked, however, and how participants and commentators (and even <a class="popup-citation" onmouseover="myFunction(event)" onmouseout="myFunction(event)" href="https://doi.org/10.1123/jege.2023-0018" target="_blank">courts<span class="popuptext">Fried, Gil. 2023. “Esports Minus Sport?” <i>Journal of Electronic Gaming and Esports</i> 1(1).</span></a>) have attempted to answer it, can help us better understand this complex, hazily-defined thing we call <em>esports</em>.
     <br><br>
-    <div class="alert alert-secondary" role="alert" style="text-align: center; margin: 0 15% 0 15%">
+    <div class="container" style="width: 80%">
+        <div class="row">
+            <div class="column" style="display: flex; justify-content: center;">
+                <button class="navigation_button" onclick="location.href='/Sonic-Unreal/what-are-sports-anyway'" style="margin-bottom: 0.5em">
+                    <span>What are “Sports”, Anyway?</span>
+                </button>
+            </div>
+            <div class="column" style="display: flex; justify-content: center;">
+                <button class="navigation_button" onclick="location.href='/Sonic-Unreal/esports-infrastructures'" style="margin-bottom: 0.5em">
+                    <span>(E)Sports Infrastructures</span>
+                </button>
+            </div>
+            <div class="column" style="display: flex; justify-content: center;">
+                <button class="navigation_button" onclick="location.href='/Sonic-Unreal/esports-fandom'" style="margin-bottom: 0.5em">
+                    <span>(E)Sports Fandom</span>
+                </button>
+            </div> 
+        </div>
+        <div class="row"> 
+            <div class="column" style="display: flex; justify-content: center;">
+                <button class="navigation_button" onclick="location.href='/Sonic-Unreal/gameplay-and-physicality'">
+                    <span>Gameplay & Physicality</span>
+                </button>
+            </div>
+            <div class="column" style="display: flex; justify-content: center;">
+                <button class="navigation_button" onclick="location.href='/Sonic-Unreal/does-this-question-even-matter'">
+                    <span>Does This Question Even Matter?</span>
+                </button>
+            </div>
+        </div> 
+    </div>
+    <br><br>
+    <div class="alert alert-secondary" role="alert" style="text-align: center; margin: 0 12% 0 12%">
         A note on terminology: in this project, I will use the term “esports player” rather than “esports athlete.” Both are used in the community with some regularity, but the latter is often viewed with skepticism as drawing a false equivalence with traditional sports.
     </div>
     <br><br>

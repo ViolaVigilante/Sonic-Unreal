@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : (E)Sports Infrastructures
-permalink: /esports-infrastructures
+title : Gameplay & Physicality
+permalink: /gameplay-and-physicality
 hide: true
 tags: []
 ---

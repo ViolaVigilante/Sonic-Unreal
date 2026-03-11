@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : (E)Sports Infrastructures
-permalink: /esports-infrastructures
+title : (E)Sports Fandom
+permalink: /esports-fandom
 hide: true
 tags: []
 ---
