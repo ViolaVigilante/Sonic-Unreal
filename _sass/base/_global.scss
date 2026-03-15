@@ -140,6 +140,7 @@ summary {
   }
 }
 
+/* Removing default Type on Strap styling for blockquotes - see custom CSS at bottom
 blockquote {
   border-left: 2px solid #9fd2e3;
   margin: 1em 1em;
@@ -152,6 +153,7 @@ blockquote *:last-child,
 footer *:last-child {
   margin-bottom: 0;
 }
+*/
 
 table {
   word-wrap: break-word;
@@ -572,4 +574,27 @@ details {
         outline: 0.4em solid transparent;
         outline-offset: 0.4em;
     }
+}
+
+
+/* Epigraph styling, adapted from https://edwardtufte.github.io/tufte-css/ */
+.epigraph {
+  font-style: italic;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.3rem;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  text-align: center;
+}
+
+.epigraph p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.epigraph footer {
+  font-style: normal;
+  font-size: 1rem;
+  text-align: right;
+  padding-right: 10%;
 }
