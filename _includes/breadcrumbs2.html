@@ -1,0 +1,113 @@
+<!-- This code is for the sidebar version of the breadcrumbs. For the original version which displayed in a static box at the top of the page, see breadcrumbs.html -->
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>  
+
+  <div class="container">
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_1}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_2}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_3}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_4}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_5}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_6}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
+        <button type="button" class="btn btn-outline-info">${Button_7}</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="display: flex; justify-content: center">
+        <button type="button" class="btn btn-outline-info">${Button_8}</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let breadcrumbList = JSON.parse(localStorage.getItem("storedBreadcrumbList")) || [];
+
+    // Initialize array with placeholder key-value pair (needed for the page refresh check below to work, not sure why)
+    var placeholder_present = false;
+    if (breadcrumbList.length === 0) {
+      breadcrumbList.push(["placeholder_key","placeholder_value"]);
+      var placeholder_present = true;
+    };
+
+    // Set Liquid variables as JS variables 
+    const pageTitle = "{{ page.title | escape }}";
+    const pagePermalink = "/Sonic-Unreal{{ page.permalink | escape }}";
+
+    // Check for page refresh (is this page the same as the last page that was visited?)
+    const previousPageLog = breadcrumbList[breadcrumbList.length - 1];
+    const previousPageName = previousPageLog[0];
+
+    if (previousPageName != pageTitle || previousPageLog === undefined) {
+        // Add current page to breadcrumb list
+        breadcrumbList.push([pageTitle,pagePermalink]);
+    };
+
+    // Remove placeholder key-value pair, if present
+    if (placeholder_present == true) {
+      breadcrumbList.shift();
+    };
+
+    // Limit to 8 items
+    if (breadcrumbList.length > 8) {
+      breadcrumbList.splice(0, 1);
+    }
+    
+    // Save updated list
+    localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
+
+    // Display breadcrumbs
+    const parent = document.getElementById('parent');
+
+    breadcrumbList.forEach((item, index) => {
+    
+      const [name, path] = item;
+      const breadcrumb_button = document.createElement("breadcrumb_button");
+      breadcrumb_button.className = "breadcrumb-item";
+
+      breadcrumb_button.innerHTML = `<button type="button" onclick="window.location.href='${path}'">${name}</button>`;
+
+      if (index < breadcrumbList.length - 1) {
+        li.innerHTML = `<a href="${path}">${name}</a>`;
+      } else {
+        li.classList.add("active");
+        li.setAttribute("aria-current", "page");
+        li.textContent = name;
+      }
+
+      parent.appendChild(li);
+
+    });
+  </script>
+</body>
