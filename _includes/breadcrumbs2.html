@@ -10,45 +10,45 @@
   <div class="container">
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button1"></button>
+        <div id="Button1"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button2"></button>
+        <div id="Button2"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button3"></button>
+        <div id="Button3"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button4"></button>
+        <div id="Button4"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button5"></button>
+        <div id="Button5"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button6"></button>
+        <div id="Button6"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center; padding-bottom: 15px;">
-        <button type="button" class="btn btn-outline-info" id="Button7"></button>
+        <div id="Button7"></div>
       </div>
     </div>
     <div class="row">
       <div class="col" style="display: flex; justify-content: center">
-        <button type="button" class="btn btn-outline-info" id="Button8"></button>
+        <div id="Button8"></div>
       </div>
     </div>
-  </div>
+  </div> 
 
   <script>
     let breadcrumbList = JSON.parse(localStorage.getItem("storedBreadcrumbList")) || [];
@@ -68,15 +68,17 @@
     const previousPageLog = breadcrumbList[breadcrumbList.length - 1];
     const previousPageName = previousPageLog[0];
 
-    if (previousPageName != pageTitle || previousPageLog === undefined) {
-        // Add current page to breadcrumb list
-        breadcrumbList.push([pageTitle,pagePermalink]);
-    };
-
     // Remove placeholder key-value pair, if present
     if (placeholder_present == true) {
       breadcrumbList.shift();
     };
+
+    // Iterate through list to ensure that pages aren't listed more than once
+    breadcrumbList = breadcrumbList.filter(remove_duplication);
+    function remove_duplication(item, index) {
+      const [name, path] = item;
+      return name !== pageTitle;
+    }; 
 
     // Limit to 8 items
     if (breadcrumbList.length > 8) {
@@ -90,30 +92,29 @@
     breadcrumbList.forEach((item, index) => {
       const [name, path] = item;
       if (index == 0) {
-        document.getElementById("Button1").innerHTML = name;
-        document.getElementById("Button1").setAttribute("onclick", `location.href='${path}'`);
+        console.log(path);
+        document.getElementById("Button1").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 1) {
-        document.getElementById("Button2").innerHTML = name;
-        document.getElementById("Button2").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button2").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 2) {
-        document.getElementById("Button3").innerHTML = name;
-        document.getElementById("Button3").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button3").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 3) {
-        document.getElementById("Button4").innerHTML = name;
-        document.getElementById("Button4").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button4").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 4) {
-        document.getElementById("Button5").innerHTML = name;
-        document.getElementById("Button5").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button5").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 5) {
-        document.getElementById("Button6").innerHTML = name;
-        document.getElementById("Button6").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button6").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 6) {
-        document.getElementById("Button7").innerHTML = name;
-        document.getElementById("Button7").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button7").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       } else if (index == 7) {
-        document.getElementById("Button8").innerHTML = name;
-        document.getElementById("Button8").setAttribute("onclick", `location.href='${path}'`);
+        document.getElementById("Button8").innerHTML = `<button type="button" class="btn btn-outline-info" onclick="location.href='${path}'">${name}</button>`;
       }
     });
+
+    if (previousPageName != pageTitle || previousPageLog === undefined) {
+      // Add current page to breadcrumb list (takes place after printing buttons so that current page doesn't display on list)
+      breadcrumbList.push([pageTitle,pagePermalink]);
+    };
+
   </script>
 </body>
