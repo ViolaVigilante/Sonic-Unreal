@@ -73,20 +73,18 @@
       breadcrumbList.shift();
     };
 
-    // Iterate through list to ensure that pages aren't listed more than once
-    breadcrumbList = breadcrumbList.filter(remove_duplication);
-    function remove_duplication(item, index) {
-      const [name, path] = item;
-      return name !== pageTitle;
-    }; 
-
     // Limit to 8 items
     if (breadcrumbList.length > 8) {
       breadcrumbList.splice(0, 1);
     }
-    
-    // Save updated list
-    localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
+
+    // Check if current page is already in breadcrumb list and remove it if so
+    breadcrumbList.forEach((item, index) => {
+      const [name, path] = item;
+      if (name == pageTitle) {
+        breadcrumbList.splice(index, 1);
+      }
+    });
 
     // Display breadcrumbs
     breadcrumbList.forEach((item, index) => {
@@ -115,6 +113,9 @@
       // Add current page to breadcrumb list (takes place after printing buttons so that current page doesn't display on list)
       breadcrumbList.push([pageTitle,pagePermalink]);
     };
+  
+    // Save updated list
+    localStorage.setItem("storedBreadcrumbList", JSON.stringify(breadcrumbList));
 
   </script>
 </body>

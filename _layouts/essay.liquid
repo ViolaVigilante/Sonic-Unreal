@@ -37,9 +37,6 @@ layout: default
     {% capture _tags %}{% include default/tags_list.liquid tags=tag_list %}{% endcapture %}
     {{ _tags | split: " " | join: " " }}
 
-    <!-- Breadcrumbs display -->
-    {% include breadcrumbs.html %}
-
     <section class="post-content">
     {% if page.bootstrap %}
         <div class="bootstrap-iso">
@@ -49,6 +46,25 @@ layout: default
         </div>
         {% endif %}
     </section>
+
+    <!-- Bootstrap Offcanvas for breadcrumbs -->
+    <div class="breadcrumb-button-container" style="position: fixed; left: 3%; bottom: 50%; z-index: 1000;">
+        <button class="breadcrumb-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Recently Visited Pages
+        </button>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Recently Visited Pages</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+            {% include breadcrumbs2.html %}
+            </div>
+        </div>
+    </div>
 
     <!-- Looks for which track(s) a page is a part of, then initializes colored next/previous page buttons as appropriate for each track -->
     <section class="next-previous-page-buttons">
