@@ -599,3 +599,31 @@ details {
   padding-left: 55%;
   padding-right: 10%;
 }
+
+
+/* Styling for video embeds and captions */
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 28.125vw;
+}
+
+.caption_div {
+    display: flex;
+    margin: auto;
+    width: 40vw;
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -8,32 +8,6 @@ tags: []
 
 <style>
 
-    iframe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50vw;
-        height: 28.125vw;
-    }
-
-    .caption_div {
-        display: flex;
-        margin: auto;
-        width: 40vw;
-    }
-
-    .caption {
-        font-style: italic;
-        text-align: center;
-        font-size: 0.85rem;
-    }
-
-    .button_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     /* From Uiverse.io by Li-Deheng */ 
     .esports_return_to_hub {
         --main-size: 1.5em;
