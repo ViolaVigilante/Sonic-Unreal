@@ -577,6 +577,14 @@ details {
 }
 
 
+/* Place navigation button in a horizontally centered div container when using just a single button */
+.navigation_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* Epigraph styling, adapted from https://edwardtufte.github.io/tufte-css/ */
 .epigraph {
   font-style: italic;
@@ -585,11 +593,17 @@ details {
   font-size: 1.3rem;
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   text-align: center;
+  background-color: beige;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .epigraph p {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .epigraph footer {
