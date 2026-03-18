@@ -140,6 +140,12 @@ tags: []
         }
     }
 
+    .button_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 </style>
 
 <body>
