@@ -18,9 +18,9 @@ tags: []
     </div>
     <br>
     <br>
-    <img src="assets\img\fieldwork_images\tft_riot_arcade.jpg" alt="Loading into a game of Teamfight Tactics in the arcade at the Riot Games Arena prior to spectating a game of professional League of Legends. July 21, 2023. Photograph by the author.">
+    <img src="assets\img\fieldwork_images\tft_riot_arcade.jpg" alt="Loading into a game of Teamfight Tactics in the arcade at the Riot Games Arena in Santa Monica, CA prior to spectating a game of professional League of Legends. July 21, 2023. Photograph by the author.">
     <div class="caption_div">
-        <p class="caption">Loading into a game of Teamfight Tactics in the arcade at the <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/riot-games-arena'>Riot Games Arena</a>">Riot Games Arena</a> prior to spectating a game of professional <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>"><i>League of Legends</i></a> July 21, 2023. Photograph by the author.</p>
+        <p class="caption">Loading into a game of Teamfight Tactics in the arcade at the <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/riot-games-arena'>Riot Games Arena</a>">Riot Games Arena</a> in <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/santa-monica'>Santa Monica</a>">Santa Monica, CA</a> prior to spectating a game of professional <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>"><i>League of Legends</i></a>. July 21, 2023. Photograph by the author.</p>
     </div>
     <br>
     <br>

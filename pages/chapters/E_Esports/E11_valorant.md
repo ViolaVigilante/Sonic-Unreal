@@ -62,13 +62,13 @@ tags: []
     <br>
     <img src="assets\img\fieldwork_images\2024_vct_americas_finals.jpg" alt="VCT Americas Finals at the Riot Games Arena in Santa Monica, CA. March 3, 2024. Photo by the author.">
     <div class="caption_div">
-        <p class="caption"><a class="popup-comment" data-bs-toggle="popover" data-bs-html="true" data-bs-title='VCT' data-bs-content='VCT (Valorant Champions Tour) is the professional esports circuit for <i>Valorant</i>, comprised of leagues around the world such as VCT Americas and VCT Pacific.'>VCT</a> Americas Finals at the Riot Games Arena in Santa Monica, CA. March 3, 2024. Photo by the author.</p>
+        <p class="caption"><a class="popup-comment" data-bs-toggle="popover" data-bs-html="true" data-bs-title='VCT' data-bs-content='VCT (Valorant Champions Tour) is the professional esports circuit for <i>Valorant</i>, comprised of leagues around the world such as VCT Americas and VCT Pacific.'>VCT</a> Americas Finals at the <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/riot-games-arena'>Riot Games Arena</a>">Riot Games Arena</a> in <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/santa-monica'>Santa Monica</a>">Santa Monica, CA</a>. March 3, 2024. Photo by the author.</p>
     </div>
     <br>
     <br>
     <img src="assets\img\fieldwork_images\vct_americas_match.jpg" alt="VCT Americas match at the Riot Games Arena in Santa Monica, CA. February 16, 2024. Photo by the author.">
     <div class="caption_div">
-        <p class="caption">VCT Americas match at the Riot Games Arena in Santa Monica, CA. February 16, 2024. Photo by the author.</p>
+        <p class="caption">VCT Americas match at the <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/riot-games-arena'>Riot Games Arena</a>">Riot Games Arena</a> in <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/santa-monica'>Santa Monica</a>">Santa Monica, CA</a>. February 16, 2024. Photo by the author.</p>
     </div>
     <br>
     <br>
