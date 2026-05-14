@@ -1,0 +1,31 @@
+--- 
+layout: essay
+title : Teamfight Tactics
+permalink: /teamfight-tactics
+hide: true
+tags: []
+---
+
+<style>
+</style>
+
+<body>
+    <p><i>Teamfight Tactics</i> (<i>TFT</i>) is an auto-battler video game developed by Riot Games, based on characters from <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>"><i>League of Legends</i></a> (Riot’s flagship title) and the Runeterra universe on which its <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/transmedia-ecosystem-of-league-of-legends'>The Transmedia Ecosystem of <i>League of Legends</i></a>">transmedia ecosystem</a> is based. Eight players compete to be the last player standing, building teams of characters to fight other players. Two to three times per year, a new “set” will be launched with new characters and slight alterations to the game’s core gameplay mechanics.</p>
+    <p><i>TFT</i> esports are much smaller in scale than either <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/valorant'><i>Valorant</i></a>"><i>Valorant</i></a> or <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>"><i>League of Legends</i></a> esports, Riot Games’ other main esports titles. Built upon a similar international structure of competition, professional players virtually gather for major online tournaments several times a year. One tournament a year, the annual TFT Open, is held in-person and draws on the open qualifier format that was foundational to the early years of esports such as <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/call-of-duty'><i>Call of Duty</i></a>"><i>Call of Duty</i></a> and continues to be part of the fighting game community (FGC) - and which some other esports like <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/apex-legends'><i>Apex Legends</i></a>"><i>Apex Legends</i></a>, eager return to (at least the appearance of) the scene’s grassroots origins, have also recently begun implementing. Opens allow for <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/(un)professional-esports'>(Un)Professional Esports</a>">talented amateur players</a> to compete against professionals, with space for a large number of competitors (768 competitors at the 2025 TFT Paris Open, for example) and participation based (at least in theory) purely on skill rather than name recognition, professional status, or sponsorship by an esports organization. Opens are structured around (in ethos if not in practice, in today’s scene) <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/from-spectatorship-to-spectator'>From Spectatorship to Spectator</a>">spectatorship as an action rather than spectator as identity</a>, with the expectation that individuals in attendance will shift contextually between playing and spectating rather than being assigned a static role of either “player” or “spectator.”</p><br>
+    <div class="alert alert-secondary" role="alert" style="text-align: center; margin: 0 12% 0 12%">
+        <p><strong>Auto-battlers</strong> are a genre of strategy video games where players build a team of characters with the goal of defeating other players’ teams. Gameplay is based entirely on constructing and organizing your team in between battles with other players; the battles themselves take place automatically with no input from the players (thus the name “auto-battlers”). Auto-battlers are thus often used to extend existing video game IP, often bringing recognizable worlds and characters from “twitchy,” reflex-based genres like <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>">MOBAs</a> into a more strategic, slower-paced gameplay loop.</p>
+        <p>Examples of auto-battlers include <i>Teamfight Tactics</i> (a spinoff of <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>"><i>League of Legends</i></a>) and <i>Dota Auto Chess</i> (a spinoff of <i>Dota 2</i>)</p>
+    </div>
+    <br>
+    <br>
+    <img src="assets\img\fieldwork_images\tft_riot_arcade.jpg" alt="Loading into a game of Teamfight Tactics in the arcade at the Riot Games Arena prior to spectating a game of professional League of Legends. July 21, 2023. Photograph by the author.">
+    <div class="caption_div">
+        <p class="caption">Loading into a game of Teamfight Tactics in the arcade at the <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/riot-games-arena'>Riot Games Arena</a>">Riot Games Arena</a> prior to spectating a game of professional <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/league-of-legends'><i>League of Legends</i></a>"><i>League of Legends</i></a> July 21, 2023. Photograph by the author.</p>
+    </div>
+    <br>
+    <br>
+    <iframe src="https://www.youtube.com/embed/GIN2mnhRGyo?si=B8CMSepJSVfGjj7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="caption_div">
+        <p class="caption">TFT Paris Open 2025</p>
+    </div>
+</body>

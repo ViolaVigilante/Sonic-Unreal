@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Apex Legends
-permalink: /apex-legends
+title : Livestreaming
+permalink: /livestreaming
 hide: true
 tags: []
 ---

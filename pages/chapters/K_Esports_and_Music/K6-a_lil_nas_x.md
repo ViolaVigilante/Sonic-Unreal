@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Valorant
-permalink: /valorant
+title : Lil Nas X
+permalink: /lil-nas-x
 hide: true
 tags: []
 ---

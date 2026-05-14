@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : (E)Sports Infrastructures
-permalink: /esports-infrastructures
+title : Attending a LAN
+permalink: /attending-a-lan
 hide: true
 tags: []
 ---
