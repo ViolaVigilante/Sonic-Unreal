@@ -588,7 +588,7 @@ details {
 /* Epigraph styling, adapted from https://edwardtufte.github.io/tufte-css/ */
 .epigraph {
   font-style: italic;
-  margin-top: 3em;
+  margin-top: 0;
   margin-bottom: 3em;
   font-size: 1.3rem;
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -598,7 +598,6 @@ details {
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .epigraph p {
@@ -609,9 +608,6 @@ details {
 .epigraph footer {
   font-style: normal;
   font-size: 1rem;
-  text-align: right;
-  padding-left: 55%;
-  padding-right: 10%;
 }
 
 

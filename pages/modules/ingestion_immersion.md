@@ -1,7 +1,7 @@
 --- 
 layout: essay
 title : Ingestion & Immersion
-permalink: /ingestion_immersion
+permalink: /ingestion-immersion
 hide: true
 
 nightlife-track: true
