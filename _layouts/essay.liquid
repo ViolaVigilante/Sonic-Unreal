@@ -47,6 +47,28 @@ layout: default
         {% endif %}
     </section>
 
+    <!-- Define page-specific variables for method Offcanvas -->
+    {% capture method_name %}
+    {{ page.permalink }}
+    {% endcapture %}
+
+    <!-- Bootstrap Offcanvas for method -->
+    <div class="method-button-container" style="position: fixed; right: 2%; botton: 50%; z-index: 1000;">
+        <button class="method-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#method-text" aria-controls="method-text">
+            Method
+        </button>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="method-text" aria-labelledby="methodTextLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="methodTextLabel">Method</h5>
+            <button type="method-button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            {% include page.title %}
+        </div>
+    </div>
+
     <!-- Bootstrap Offcanvas for breadcrumbs -->
     <div class="breadcrumb-button-container" style="position: fixed; left: 2%; bottom: 5%; z-index: 1000;">
         <button class="breadcrumb-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
