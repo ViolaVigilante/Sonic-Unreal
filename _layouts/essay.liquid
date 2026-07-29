@@ -15,7 +15,58 @@ layout: default
             transform: scale(1.05);
             background-color: bisque;
         }
+
+        body {
+            background-color: #EAE9D7;
+        }
     </style>
+
+    <script>
+        let easyReadingModeOn = false;
+        const removedCitationContent = [];
+
+        function easyReadingFunction() {
+            if (easyReadingModeOn === false) {
+                const citationList = document.getElementsByClassName("popup-citation");
+                for (let i = 0; i < citationList.length; i++) {
+                    citationList[i].style.background = "none";
+                    let citationContent = citationList[i].textContent;
+                    console.log(citationContent);
+                    tempArray = citationContent.split("⚑");
+                    console.log(tempArray);
+                    removedCitationContent.push(tempArray[1]);
+                    console.log(removedCitationContent)
+                    newCitationContent = tempArray[0];
+                    citationList[i].textContent = newCitationContent;
+                }
+                const hyperlinkList = document.getElementsByClassName("popup-hyperlink");
+                for (let i = 0; i < hyperlinkList.length; i++) {
+                    hyperlinkList[i].style.background = "none";
+                }
+                const commentList = document.getElementsByClassName("popup-comment");
+                for (let i = 0; i < commentList.length; i++) {
+                    commentList[i].style.background = "none";
+                }
+            } else {
+                const citationList = document.getElementsByClassName("popup-citation");
+                for (let i = 0; i < citationList.length; i++) {
+                    citationList[i].style.background = "#c7ced1";
+                    citationList[i].textcontent += removedCitationContent[i]
+                }
+                const hyperlinkList = document.getElementsByClassName("popup-hyperlink");
+                for (let i = 0; i < hyperlinkList.length; i++) {
+                    hyperlinkList[i].style.background = "#eed3e2";
+                }
+                const commentList = document.getElementsByClassName("popup-comment");
+                for (let i = 0; i < commentList.length; i++) {
+                    commentList[i].style.background = "#b1e7d1";
+                }
+                removedCitationContent = []
+            }
+            easyReadingModeOn = !easyReadingModeOn;
+            return removedCitationContent;
+        }
+    </script>
 </head>
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
@@ -47,10 +98,13 @@ layout: default
         {% endif %}
     </section>
 
-    <!-- Define page-specific variables for method Offcanvas -->
+    <!-- Define page-specific variables for method Offcanvas
     {% capture method_name %}
     {{ page.permalink }}
     {% endcapture %}
+    {{ method_name | remove_first: "/"}}
+    {{ method_name | append: "-method.html"}}
+    -->
 
     <!-- Bootstrap Offcanvas for method -->
     <div class="method-button-container" style="position: fixed; right: 2%; botton: 50%; z-index: 1000;">
@@ -65,7 +119,6 @@ layout: default
             <button type="method-button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            {% include page.title %}
         </div>
     </div>
 
@@ -86,6 +139,13 @@ layout: default
             {% include breadcrumbs2.html %}
             </div>
         </div>
+    </div>
+
+    <!-- Easy Reading Mode toggle -->
+    <div class="easy-reading-mode-toggle" style="position: fixed; right: 2%; bottom: 5%; z-index: 1000;">
+        <button class="easy-reading-mode-button" type="button" onclick="easyReadingFunction()">
+            Easy Reading Mode
+        </button>
     </div>
 
     <!-- Looks for which track(s) a page is a part of, then initializes colored next/previous page buttons as appropriate for each track -->

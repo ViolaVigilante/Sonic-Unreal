@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<head>
+    <style>
+        body {
+            background-color: #EAE9D7;
+        }
+    </style>
+</head>
+
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
     <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
         <div class="title-padder">
