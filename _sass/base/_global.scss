@@ -667,3 +667,38 @@ iframe {
 .breadcrumb-button:active {
   box-shadow: 0 0.3em 1em -0.5em #735b70;
 }
+
+
+/* Easy Reading Mode button, adapted from Uiverse.io by adamgiebl - largely identical to breadcrumb button */ 
+.easy-reading-mode-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #50324c;
+  background: linear-gradient(
+    0deg,
+    rgba(60, 27, 56, 1) 0%,
+    rgba(119, 95, 116, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #2a1327be;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+}
+
+.easy-reading-mode-button svg {
+  margin-right: 8px;
+}
+
+.easy-reading-mode-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #735b70;
+}
+
+.easy-reading-mode-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #735b70;
+}
