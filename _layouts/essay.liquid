@@ -23,48 +23,69 @@ layout: default
 
     <script>
         let easyReadingModeOn = false;
-        const removedCitationContent = [];
+        const citationMarkerPositions = [];
+
+        function removeCitationMarker(element) {
+            const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+            let textNode;
+
+            while ((textNode = walker.nextNode())) {
+                const markerIndex = textNode.nodeValue.indexOf("⚑");
+                if (markerIndex !== -1) {
+                    const text = textNode.nodeValue;
+                    textNode.nodeValue = text.slice(0, markerIndex) + text.slice(markerIndex + 1);
+                    return { textNode, markerIndex };
+                }
+            }
+
+            return null;
+        }
+
+        function restoreCitationMarker(markerInfo) {
+            if (!markerInfo) {
+                return;
+            }
+
+            const { textNode, markerIndex } = markerInfo;
+            const text = textNode.nodeValue || "";
+            textNode.nodeValue = text.slice(0, markerIndex) + "⚑" + text.slice(markerIndex);
+        }
 
         function easyReadingFunction() {
+            const citationList = document.getElementsByClassName("popup-citation");
+
             if (easyReadingModeOn === false) {
-                const citationList = document.getElementsByClassName("popup-citation");
                 for (let i = 0; i < citationList.length; i++) {
                     citationList[i].style.background = "none";
-                    let citationContent = citationList[i].textContent;
-                    console.log(citationContent);
-                    tempArray = citationContent.split("⚑");
-                    console.log(tempArray);
-                    removedCitationContent.push(tempArray[1]);
-                    console.log(removedCitationContent)
-                    newCitationContent = tempArray[0];
-                    citationList[i].textContent = newCitationContent;
+                    citationMarkerPositions[i] = removeCitationMarker(citationList[i]);
                 }
                 const hyperlinkList = document.getElementsByClassName("popup-hyperlink");
                 for (let i = 0; i < hyperlinkList.length; i++) {
                     hyperlinkList[i].style.background = "none";
+                    hyperlinkList[i].style.fontWeight = "normal";
                 }
                 const commentList = document.getElementsByClassName("popup-comment");
                 for (let i = 0; i < commentList.length; i++) {
                     commentList[i].style.background = "none";
                 }
             } else {
-                const citationList = document.getElementsByClassName("popup-citation");
                 for (let i = 0; i < citationList.length; i++) {
                     citationList[i].style.background = "#c7ced1";
-                    citationList[i].textcontent += removedCitationContent[i]
+                    restoreCitationMarker(citationMarkerPositions[i]);
                 }
+                citationMarkerPositions.length = 0;
                 const hyperlinkList = document.getElementsByClassName("popup-hyperlink");
                 for (let i = 0; i < hyperlinkList.length; i++) {
                     hyperlinkList[i].style.background = "#eed3e2";
+                    hyperlinkList[i].style.fontWeight = "bold";
                 }
                 const commentList = document.getElementsByClassName("popup-comment");
                 for (let i = 0; i < commentList.length; i++) {
                     commentList[i].style.background = "#b1e7d1";
                 }
-                removedCitationContent = []
             }
             easyReadingModeOn = !easyReadingModeOn;
-            return removedCitationContent;
+            return true;
         }
     </script>
 </head>
