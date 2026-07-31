@@ -355,7 +355,7 @@ details {
     position: relative;
     display: inline;
     cursor: pointer;
-    background: #C7CED1;
+    background: #d2d8da;
     color: black;
 }
 
@@ -587,11 +587,10 @@ details {
 
 /* Epigraph styling, adapted from https://edwardtufte.github.io/tufte-css/ */
 .epigraph {
-  font-style: italic;
   margin-top: 0;
   margin-bottom: 3em;
   font-size: 1.3rem;
-  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: "Lora";
   text-align: center;
   background-color: #B1BABE;
   width: 85%;
@@ -701,4 +700,11 @@ iframe {
 
 .easy-reading-mode-button:active {
   box-shadow: 0 0.3em 1em -0.5em #735b70;
+}
+
+
+/* Styling for text in page title cards */
+.title {
+  font-weight: bold;
+  font-size: 3.5rem;
 }

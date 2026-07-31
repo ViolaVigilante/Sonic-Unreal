@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : The Party as a Living Entity
-permalink: /party-as-living-entity
+title : The Life of the Party
+permalink: /life-of-the-party
 feature-img: assets\img\page_titles\boba_disco_ball.jpg
 hide: true
 tags: []

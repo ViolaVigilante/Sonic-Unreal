@@ -1,8 +1,9 @@
 --- 
 layout: essay
 title : Sound, Affect, Labor
-permalink: /sound_affect_labor
+permalink: /sound-affect-labor
 hide: true
+method-sidebar: true
 
 esports-track: true
 next-esports-page: true
