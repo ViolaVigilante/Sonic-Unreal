@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Baby Gay
-permalink: /baby-gay
+title : Dragon Fruit
+permalink: /dragon-fruit
 hide: true
 method-sidebar: false
 tags: []

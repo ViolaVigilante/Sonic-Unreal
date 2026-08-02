@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Baby Gay
-permalink: /baby-gay
+title : Let's Never Live in Fear
+permalink: /lets-never-live-in-fear
 hide: true
 method-sidebar: false
 tags: []

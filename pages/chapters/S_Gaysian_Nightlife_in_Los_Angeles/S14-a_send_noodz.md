@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Baby Gay
-permalink: /baby-gay
+title : Send Noodz
+permalink: /send-noodz
 hide: true
 method-sidebar: false
 tags: []

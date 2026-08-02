@@ -4,7 +4,7 @@ title : Ingestion, Immigration, and Nationalism
 permalink: /ingestion-immigration-nationalism
 feature-img: assets\img\page_titles\goddess_yuki_whip.jpg
 hide: true
-method-sidebar: true
+method-sidebar: false
 tags: []
 ---
 

@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Baby Gay
-permalink: /baby-gay
+title : Drag
+permalink: /drag
 hide: true
 method-sidebar: false
 tags: []

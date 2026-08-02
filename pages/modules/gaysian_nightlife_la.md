@@ -1,7 +1,7 @@
 --- 
 layout: essay
 title : Gaysian Nightlife in LA
-permalink: /gaysian_nightlife_la
+permalink: /gaysian-nightlife-la
 hide: true
 nightlife-track: true
 next-nightlife-page: true
