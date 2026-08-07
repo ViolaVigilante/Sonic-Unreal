@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Identity as Performance
-permalink: /identity-as-performance
+title : The History of Gaysian Nightlife in LA
+permalink: /history-of-gaysian-nightlife
 hide: true
 method-sidebar: false
 tags: []

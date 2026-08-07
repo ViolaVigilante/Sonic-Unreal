@@ -3,6 +3,7 @@ layout: essay
 title : The Consumptive Construction of Gaysianness
 permalink: /consumptive-construction-of-gaysianness
 hide: true
+method-sidebar: false
 tags: []
 ---
 

@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Identity as Performance
-permalink: /identity-as-performance
+title : The Sexual Construction of Asian America
+permalink: /sexual-construction-asian-america
 hide: true
 method-sidebar: false
 tags: []
