@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : The (Un)Reality of Nightlife
-permalink: /unreality_nightlife
+title : The Virtuality of Nightlife
+permalink: /virtuality-of-nightlife
 hide: true
 bootstrap: true
 

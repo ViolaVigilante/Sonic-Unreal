@@ -1,6 +1,6 @@
 --- 
 layout: essay
-title : Affect & Liveness
+title : The Affect of Liveness
 permalink: /affect_liveness
 hide: true
 

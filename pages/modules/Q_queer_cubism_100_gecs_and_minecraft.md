@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Queer Maximalism
-permalink: /queer_maximalism
+title : Queer Cubism: 100 Gecs & Minecraft
+permalink: /queer_cubism
 hide: true
 
 virtual-concerts-track: true

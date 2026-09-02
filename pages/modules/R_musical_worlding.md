@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : A Media Theory of Music
-permalink: /media_theory_music
+title : Musical Worlding
+permalink: /musical-worlding
 hide: true
 
 virtual-concerts-track: true

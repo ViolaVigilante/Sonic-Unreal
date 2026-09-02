@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : History & Landscape of Virtual Music
-permalink: /history_landscape_virtual_music
+title : Virtual Music
+permalink: /virtual-music
 hide: true
 virtual-concerts-track: true
 next-virtual-concerts-page: true

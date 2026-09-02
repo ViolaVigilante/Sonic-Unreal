@@ -1,18 +1,16 @@
 --- 
 layout: essay
-title : What is Virtuality?
-permalink: /what_is_virtuality
+title : Gaysian Nightlife in Los Angeles
+permalink: /gaysian-nightlife-la
 hide: true
-
-virtuality-track: true
-next-virtuality-page: true
-next-virtuality-page-title: What Makes Virtual Concerts Virtual?
-next-virtuality-page-destination: what_makes_virtual_concerts
-previous-virtuality-page: true
-previous-virtuality-page-title: Virtuality
-previous-virtuality-page-destination: virtuality
-
-tags: [Virtuality]
+nightlife-track: true
+next-nightlife-page: true
+next-nightlife-page-title: Gaysianness - Identity, Affect, Aesthetic
+next-nightlife-page-destination: gaysianness
+previous-nightlife-page: true
+previous-nightlife-page-title: Nightlife
+previous-nightlife-page-destination: nightlife
+tags: [Nightlife]
 ---
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
