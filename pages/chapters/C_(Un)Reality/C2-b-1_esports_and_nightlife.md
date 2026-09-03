@@ -22,26 +22,626 @@ tags: []
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets\img\fieldwork_images\aram-a-lan_1.jpg" class="d-block" alt="..." style="height: 800px; width: auto;">
+                <!-- Image 1 Modal -->
+                <input type="image" src="assets\img\social_media\esports_nightlife\la_thieves_1v1s_in_the_club.png" class="d-block" data-bs-toggle="modal" data-bs-target="#la_thieves_1v1s_in_the_club" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="la_thieves_1v1s_in_the_club" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\social_media\esports_nightlife\la_thieves_1v1s_in_the_club.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="assets\img\fieldwork_images\aram-a-lan_2.jpg" class="d-block" alt="..." style="height: 800px; width: auto;">
+                <!-- Image 2 Modal -->
+                <input type="image" src="assets\img\social_media\esports_nightlife\azure_metamorposis.png" class="d-block" data-bs-toggle="modal" data-bs-target="#azure_metamorposis" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="azure_metamorposis" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\social_media\esports_nightlife\azure_metamorposis.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="assets\img\fieldwork_images\aram-a-lan_3.jpg" class="d-block" alt="..." style="height: 800px; width: auto;">
+                <!-- Image 3 Modal -->
+                <input type="image" src="assets\img\social_media\esports_nightlife\brownies_and_valorade.png" class="d-block" data-bs-toggle="modal" data-bs-target="#brownies_and_valorade" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="brownies_and_valorade" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\social_media\esports_nightlife\brownies_and_valorade.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="assets\img\fieldwork_images\aram-a-lan_4.jpg" class="d-block" alt="..." style="height: 800px; width: auto;">
+                <!-- Image 4 Modal -->
+                <input type="image" src="assets\img\social_media\esports_nightlife\100_thieves_foundation_party.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#100_thieves_foundation_party" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="100_thieves_foundation_party" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\social_media\esports_nightlife\100_thieves_foundation_party.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- Image 5 Modal -->
+                <input type="image" src="assets\img\social_media\esports_nightlife\nrg_night_market.png" class="d-block" data-bs-toggle="modal" data-bs-target="#nrg_night_market" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="nrg_night_market" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\social_media\esports_nightlife\nrg_night_market.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- Image 6 Modal -->
+                <input type="image" src="assets\img\social_media\esports_nightlife\switch_rice_breakers_smash.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#switch_rice_breakers_smash" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="switch_rice_breakers_smash" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\social_media\esports_nightlife\switch_rice_breakers_smash.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- Image 7 Modal -->
+                <input type="image" src="assets\img\fieldwork_images\lags_mortal_kombat_drag.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#lags_mortal_kombat_drag" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="lags_mortal_kombat_drag" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\fieldwork_images\lags_mortal_kombat_drag.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Boba Poster - May 9, 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- Image 8 Modal -->
+                <input type="image" src="assets\img\fieldwork_images\lags_mortal_kombat.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#lags_mortal_kombat" style="display: block; margin: auto; height: 30vw; width: auto">
+                <div class="modal fade" id="lags_mortal_kombat" tabindex="-1" aria-labelledby="Los Angeles Gayming Society - September 22, 2023" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Los Angeles Gayming Society - September 22, 2023</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="image-display">
+                                                <img src="assets\img\fieldwork_images\lags_mortal_kombat.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Title</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Los Angeles Gayming Society - September 22, 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="title-label" style="font-weight: bold; text-align: center;">
+                                                <p>Metadata Label 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="title-actual" style="text-align: left;">
+                                                <p>Metadata Item 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" data-bs-theme="dark">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" data-bs-theme="dark">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
