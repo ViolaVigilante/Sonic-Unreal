@@ -1,7 +1,7 @@
 --- 
 layout: essay
 title : The Affect of Liveness
-permalink: /affect_liveness
+permalink: /affect-liveness
 hide: true
 
 virtual-concerts-track: true
