@@ -295,7 +295,7 @@ tags: []
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 2</p>
+                                                <p>A picture from an Instagram post of esports org 100 Thieves’ party for the launch of their “Foundations” clothing line, posted by a DJ in <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/gaysian-nightlife-la'>Gaysian Nightlife in Los Angeles</a>" style="text-decoration: underline; font-weight: bold;">LA’s Asian American nightlife scene</a> who was asked to perform there.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -307,7 +307,7 @@ tags: []
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 3</p>
+                                                <p>July 2, 2021</p>
                                             </div>
                                         </div>
                                     </div>
@@ -319,7 +319,7 @@ tags: []
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 4</p>
+                                                <p><a target="_blank" href="https://www.instagram.com/p/CQ1ik7xl4st/?img_index=2">https://www.instagram.com/p/CQ1ik7xl4st/?img_index=2</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -335,11 +335,11 @@ tags: []
             <div class="carousel-item">
                 <!-- Image 5 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\nrg_night_market.png" class="d-block" data-bs-toggle="modal" data-bs-target="#nrg_night_market" style="display: block; margin: auto; height: 30vw; width: auto">
-                <div class="modal fade" id="nrg_night_market" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                <div class="modal fade" id="nrg_night_market" tabindex="-1" aria-labelledby="NRG Night Market" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">NRG Night Market</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -359,43 +359,43 @@ tags: []
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Boba Poster - May 9, 2024</p>
+                                                <p>NRG Night Market</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="title-label" style="font-weight: bold; text-align: center;">
-                                                <p>Metadata Label 2</p>
+                                                <p>Description</p>
                                             </div>
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 2</p>
+                                                <p>A DJ performs at esports org NRG’s “Night Market” event in <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/los-angeles'>Los Angeles</a>" style="text-decoration: underline; font-weight: bold;">Los Angeles</a> in Summer 2026. Screenshot from a Twitter post by NRG.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="title-label" style="font-weight: bold; text-align: center;">
-                                                <p>Metadata Label 3</p>
+                                                <p>Date</p>
                                             </div>
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 3</p>
+                                                <p>July 16, 2026</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="title-label" style="font-weight: bold; text-align: center;">
-                                                <p>Metadata Label 4</p>
+                                                <p>Source</p>
                                             </div>
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 4</p>
+                                                <p><a target="_blank" href="https://x.com/NRGgg/status/2077828707604197819">https://x.com/NRGgg/status/2077828707604197819</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -411,11 +411,11 @@ tags: []
             <div class="carousel-item">
                 <!-- Image 6 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\switch_rice_breakers_smash.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#switch_rice_breakers_smash" style="display: block; margin: auto; height: 30vw; width: auto">
-                <div class="modal fade" id="switch_rice_breakers_smash" tabindex="-1" aria-labelledby="Boba Poster - May 9, 2024" aria-hidden="true">
+                <div class="modal fade" id="switch_rice_breakers_smash" tabindex="-1" aria-labelledby="Rice Breakers Smash Tournament" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Boba Poster - May 9, 2024</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Rice Breakers Smash Tournament</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -435,43 +435,43 @@ tags: []
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Boba Poster - May 9, 2024</p>
+                                                <p>Rice Breakers Smash Tournament</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="title-label" style="font-weight: bold; text-align: center;">
-                                                <p>Metadata Label 2</p>
+                                                <p>Description</p>
                                             </div>
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 2</p>
+                                                <p>Poster for a <em>Super Smash Bros.</em> tournament at <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/qt-nightlife'>QT Nightlife</a>" style="text-decoration: underline; font-weight: bold;">QT Nightlife’s Switch</a> on July 18, 2026 - a prominent <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/weho-gaysian-nightlife'>WeHo's Gaysian Nightlife</a>" style="text-decoration: underline; font-weight: bold;">Gaysian nightlife event in West Hollywood</a>.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="title-label" style="font-weight: bold; text-align: center;">
-                                                <p>Metadata Label 3</p>
+                                                <p>Date</p>
                                             </div>
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 3</p>
+                                                <p>July 3, 2026</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="title-label" style="font-weight: bold; text-align: center;">
-                                                <p>Metadata Label 4</p>
+                                                <p>Source</p>
                                             </div>
                                         </div>
                                         <div class="col-8">
                                             <div class="title-actual" style="text-align: left;">
-                                                <p>Metadata Item 4</p>
+                                                <p><a target="_blank" href="https://www.instagram.com/p/DaWMEKwS_1Z/">https://www.instagram.com/p/DaWMEKwS_1Z/</a></p>
                                             </div>
                                         </div>
                                     </div>
