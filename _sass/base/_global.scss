@@ -295,12 +295,13 @@ details {
 //
 // Custom CSS
 .popup-comment {
+    text-decoration: none;
     position: relative;
     display: inline;
     cursor: pointer;
     background: #B1E7D1;
     color: black;
-    text-decoration: none;
+    z-index: 1;
 }
 
 /* The actual popup (appears on top) */
@@ -438,6 +439,7 @@ details {
     cursor: pointer;
     background: #EED3E2;
     color: black;
+    z-index: 1;
 }
 
 /* The actual popup (appears on top) */

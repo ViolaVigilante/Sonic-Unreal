@@ -11,7 +11,7 @@ tags: []
 </style>
 
 <body>
-    <p><a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/esports'>Esports</a>" style="text-decoration: underline; font-weight: bold;">Esports</a> and <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/nightlife'>Nightlife</a>" style="text-decoration: underline; font-weight: bold;">nightlife</a> might appear, on their surface, to be an odd pairing. After all, stereotypes of people who play video games for a living don’t typically align with stereotypes of people who frequent nightclubs - but there are, in fact, vibrant intersections here.</p>
+    <p><a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content='<a href="/Sonic-Unreal/esports">Esports</a>' style="text-decoration: underline; font-weight: bold;">Esports</a> and <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/nightlife'>Nightlife</a>" style="text-decoration: underline; font-weight: bold;">nightlife</a> might appear, on their surface, to be an odd pairing. After all, stereotypes of people who play video games for a living don’t typically align with stereotypes of people who frequent nightclubs - but there are, in fact, vibrant intersections here.</p>
     <p>In my time in <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/los-angeles'>Los Angeles</a>" style="text-decoration: underline; font-weight: bold;">Los Angeles</a>, I heard <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/the-story-of-a-song'>The Story of a Song</a>" style="text-decoration: underline; font-weight: bold;">songs written for <em>League of Legends</em> played in nightclubs</a>; I listened to local DJs playing at a <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/gaysianness'>Gaysianness - Identity, Affect, Aesthetic</a>" style="text-decoration: underline; font-weight: bold;">Gaysian</a> party one night and at an esports event the next; I went to parties hosted at <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/(e)sports-infrastructures'>(E)Sports Infrastructures</a>" style="text-decoration: underline; font-weight: bold;">esports teams’ training facilities</a>; I watched go-go dancers and DJs perform in esports-branded clothing; and I bore witness to a myriad of musical aesthetics, fashion trends, slang terms, and, indeed, people crossing the boundaries between the not-so-separate spheres of esports and nightlife.</p>
     <p>As <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/history-of-esports'>History of Esports</a>" style="text-decoration: underline; font-weight: bold;">the financial tides of esports have shifted over the last decade</a>, esports orgs (umbrella organizations which field teams in a variety of esports titles) have branched out in an attempt to diversify their income streams. Some of the most successful have been a handful of <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/esports-in-la'>Esports in LA</a>" style="text-decoration: underline; font-weight: bold;">based in Los Angeles</a> who constructed reputations as the “cool” orgs - selling branded streetwear and collaborating with high-profile personalities from outside of esports, for example. These orgs - like 100 Thieves and NRG - <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/esports-and-music'>Esports & Music</a>" style="text-decoration: underline; font-weight: bold;">have made their brands <em>audible</em></a> as well, leaning into the cool factor of hip hop and <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/edm'>EDM</a>" style="text-decoration: underline; font-weight: bold;">EDM</a> aesthetics when using music for everything from social media content to live events.</p>
     <p>The ever-increasing links between nightlife and esports, <a class="popup-hyperlink" data-bs-toggle="popover" data-bs-html="true" data-bs-title="Explore Further" data-bs-content="<a href='/Sonic-Unreal/esports-in-la'>Esports in LA</a>" style="text-decoration: underline; font-weight: bold;">particularly in the context of Los Angeles</a>, stem from these same efforts to reclaim “esports” from stereotypes of gamers as middle-aged white men sitting in their parents’ basement drinking Mountain Dew and move the image of the industry instead towards something trendy and sexy (and with esports players drinking Red Bull and Monster instead).</p>
@@ -32,7 +32,7 @@ tags: []
                 <!-- Image 1 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\la_thieves_1v1s_in_the_club.png" class="d-block" data-bs-toggle="modal" data-bs-target="#la_thieves_1v1s_in_the_club" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="la_thieves_1v1s_in_the_club" tabindex="-1" aria-labelledby="1v1's in the Club" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">1v1's in the Club</h1>
@@ -43,7 +43,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\social_media\esports_nightlife\la_thieves_1v1s_in_the_club.png">
+                                                <img style="max-height: 72vh;" src="assets\img\social_media\esports_nightlife\la_thieves_1v1s_in_the_club.png">
                                             </div>
                                         </div>
                                     </div>
@@ -108,7 +108,7 @@ tags: []
                 <!-- Image 2 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\azure_metamorposis.png" class="d-block" data-bs-toggle="modal" data-bs-target="#azure_metamorposis" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="azure_metamorposis" tabindex="-1" aria-labelledby="Azure - Metamorphosis" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">Azure - Metamorphosis</h1>
@@ -119,7 +119,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\social_media\esports_nightlife\azure_metamorposis.png">
+                                                <img style="max-height: 72vh;" src="assets\img\social_media\esports_nightlife\azure_metamorposis.png">
                                             </div>
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@ tags: []
                 <!-- Image 3 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\brownies_and_valorade.png" class="d-block" data-bs-toggle="modal" data-bs-target="#brownies_and_valorade" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="brownies_and_valorade" tabindex="-1" aria-labelledby="Brownies & VALORADE" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">Brownies & VALORADE</h1>
@@ -195,7 +195,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\social_media\esports_nightlife\brownies_and_valorade.png">
+                                                <img style="max-height: 72vh;" src="assets\img\social_media\esports_nightlife\brownies_and_valorade.png">
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +260,7 @@ tags: []
                 <!-- Image 4 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\100_thieves_foundation_party.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#100_thieves_foundation_party" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="100_thieves_foundation_party" tabindex="-1" aria-labelledby="100 Thieves Foundation Party" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">100 Thieves Foundation Party</h1>
@@ -271,7 +271,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\social_media\esports_nightlife\100_thieves_foundation_party.jpg">
+                                                <img style="max-height: 72vh;" src="assets\img\social_media\esports_nightlife\100_thieves_foundation_party.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -336,7 +336,7 @@ tags: []
                 <!-- Image 5 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\nrg_night_market.png" class="d-block" data-bs-toggle="modal" data-bs-target="#nrg_night_market" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="nrg_night_market" tabindex="-1" aria-labelledby="NRG Night Market" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">NRG Night Market</h1>
@@ -347,7 +347,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\social_media\esports_nightlife\nrg_night_market.png">
+                                                <img style="max-height: 72vh;" src="assets\img\social_media\esports_nightlife\nrg_night_market.png">
                                             </div>
                                         </div>
                                     </div>
@@ -412,7 +412,7 @@ tags: []
                 <!-- Image 6 Modal -->
                 <input type="image" src="assets\img\social_media\esports_nightlife\switch_rice_breakers_smash.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#switch_rice_breakers_smash" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="switch_rice_breakers_smash" tabindex="-1" aria-labelledby="Rice Breakers Smash Tournament" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">Rice Breakers Smash Tournament</h1>
@@ -423,7 +423,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\social_media\esports_nightlife\switch_rice_breakers_smash.jpg">
+                                                <img style="max-height: 72vh;" src="assets\img\social_media\esports_nightlife\switch_rice_breakers_smash.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -488,7 +488,7 @@ tags: []
                 <!-- Image 7 Modal -->
                 <input type="image" src="assets\img\fieldwork_images\lags_mortal_kombat_drag.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#lags_mortal_kombat_drag" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="lags_mortal_kombat_drag" tabindex="-1" aria-labelledby="<em>Mortal Kombat</em> Drag" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel"><em>Mortal Kombat</em> Drag</h1>
@@ -499,7 +499,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\fieldwork_images\lags_mortal_kombat_drag.jpg">
+                                                <img style="max-height: 72vh;" src="assets\img\fieldwork_images\lags_mortal_kombat_drag.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -576,7 +576,7 @@ tags: []
                 <!-- Image 8 Modal -->
                 <input type="image" src="assets\img\fieldwork_images\lags_mortal_kombat.jpg" class="d-block" data-bs-toggle="modal" data-bs-target="#lags_mortal_kombat" style="display: block; margin: auto; height: 30vw; width: auto">
                 <div class="modal fade" id="lags_mortal_kombat" tabindex="-1" aria-labelledby="Playing <em>Mortal Kombat 1</em> at LAGS" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">Playing <em>Mortal Kombat 1</em> at LAGS</h1>
@@ -587,7 +587,7 @@ tags: []
                                     <div class="row">
                                         <div class="col">
                                             <div class="image-display" style="display: flex; justify-content: center;">
-                                                <img src="assets\img\fieldwork_images\lags_mortal_kombat.jpg">
+                                                <img style="max-height: 72vh;" src="assets\img\fieldwork_images\lags_mortal_kombat.jpg">
                                             </div>
                                         </div>
                                     </div>

@@ -3,6 +3,7 @@ layout: essay
 title : History of Esports
 permalink: /history-of-esports
 hide: true
+method-sidebar: false
 tags: []
 ---
 
