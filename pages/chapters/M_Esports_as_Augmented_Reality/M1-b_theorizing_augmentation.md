@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : Theorizing Augmentation
+permalink: /theorizing-augmentation
 hide: true
 method-sidebar: false
 tags: []

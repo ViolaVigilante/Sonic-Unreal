@@ -1,7 +1,7 @@
 --- 
 layout: essay
 title : Esports as Augmented Reality
-permalink: /esports_augmented_reality
+permalink: /esports-augmented-reality
 hide: true
 
 esports-track: true

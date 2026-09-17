@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : Virtuality & VR
+permalink: /virtuality-and-vr
 hide: true
 method-sidebar: false
 tags: []

@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : Augmented Reality
+permalink: /augmented-reality
 hide: true
 method-sidebar: false
 tags: []

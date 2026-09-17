@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : Augmenting Virtual Reality
+permalink: /augmenting-virtual-reality
 hide: true
 method-sidebar: false
 tags: []

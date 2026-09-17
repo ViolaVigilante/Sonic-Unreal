@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : The Potentiality of Nightlife
+permalink: /potentiality-of-nightlife
 hide: true
 method-sidebar: false
 tags: []

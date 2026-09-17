@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : Audio Augmented Reality
+permalink: /audio-augmented-reality
 hide: true
 method-sidebar: false
 tags: []

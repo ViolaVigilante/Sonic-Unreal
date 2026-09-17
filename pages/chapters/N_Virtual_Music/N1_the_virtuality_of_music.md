@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : K/DA
-permalink: /kda
+title : The Virtuality of Music
+permalink: /virtuality-of-music
 hide: true
 method-sidebar: false
 tags: []

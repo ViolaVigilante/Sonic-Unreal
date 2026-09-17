@@ -3,6 +3,7 @@ layout: essay
 title : Gamification
 permalink: /gamification
 hide: true
+method-sidebar: false
 tags: []
 ---
 
