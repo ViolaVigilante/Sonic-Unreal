@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : Sound & Affect
+permalink: /sound-and-affect
 hide: true
 method-sidebar: false
 tags: []

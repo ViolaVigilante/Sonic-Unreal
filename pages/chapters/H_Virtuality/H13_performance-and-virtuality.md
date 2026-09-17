@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : Performance & Virtuality
+permalink: /performance-and-virtuality
 hide: true
 method-sidebar: false
 tags: []

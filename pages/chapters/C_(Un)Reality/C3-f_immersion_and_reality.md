@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : Immersion & Reality
+permalink: /immersion-reality
 hide: true
 method-sidebar: false
 tags: []

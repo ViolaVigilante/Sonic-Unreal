@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : Labor in Esports
+permalink: /labor-in-esports
 hide: true
 method-sidebar: false
 tags: []

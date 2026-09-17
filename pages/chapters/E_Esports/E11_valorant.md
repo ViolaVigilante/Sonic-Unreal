@@ -3,6 +3,7 @@ layout: essay
 title : Valorant
 permalink: /valorant
 hide: true
+method-sidebar: false
 tags: []
 ---
 

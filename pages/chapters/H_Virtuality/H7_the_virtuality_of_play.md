@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : The Virtuality of Play
+permalink: /virtuality-of-play
 hide: true
 method-sidebar: false
 tags: []

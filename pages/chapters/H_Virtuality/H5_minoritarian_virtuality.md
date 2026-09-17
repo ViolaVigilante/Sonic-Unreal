@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : Minoritarian Virtuality
+permalink: /minoritarian-virtuality
 hide: true
 method-sidebar: false
 tags: []

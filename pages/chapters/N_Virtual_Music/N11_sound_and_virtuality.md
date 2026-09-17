@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : Sound & Virtuality
+permalink: /sound-and-virtuality
 hide: true
 method-sidebar: false
 tags: []

@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : Livestreaming
-permalink: /livestreaming
+title : EDM & Immersion
+permalink: /edm-and-immersion
 hide: true
 method-sidebar: false
 tags: []

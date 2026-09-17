@@ -3,6 +3,7 @@ layout: essay
 title : Attending a LAN
 permalink: /attending-a-lan
 hide: true
+method-sidebar: false
 tags: []
 ---
 
