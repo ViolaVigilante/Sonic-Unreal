@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : IRL or AFK?
-permalink: /irl-or-afk
+title : Second Life
+permalink: /second-life
 hide: true
 method-sidebar: false
 tags: []

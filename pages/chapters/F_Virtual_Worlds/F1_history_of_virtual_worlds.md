@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : IRL or AFK?
-permalink: /irl-or-afk
+title : History of Virtual Worlds
+permalink: /history-of-virtual-worlds
 hide: true
 method-sidebar: false
 tags: []

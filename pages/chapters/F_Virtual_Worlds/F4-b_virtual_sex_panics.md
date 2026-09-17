@@ -1,7 +1,7 @@
 --- 
 layout: essay
-title : IRL or AFK?
-permalink: /irl-or-afk
+title : Virtual Sex Panics
+permalink: /virtual-sex-panics
 hide: true
 method-sidebar: false
 tags: []
