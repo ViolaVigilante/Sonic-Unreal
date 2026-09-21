@@ -2,7 +2,7 @@
 layout: essay
 title : Critical Eating Studies
 permalink: /critical-eating-studies
-feature-img: assets\img\page_titles\flyquest_drinks.jpg
+feature-img: assets\img\page_titles\8.18.2023_flyquest_drinks.jpg
 hide: true
 method-sidebar: false
 tags: []

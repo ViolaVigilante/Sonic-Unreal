@@ -2,7 +2,7 @@
 layout: essay
 title : Ingestion, Immigration, and Nationalism
 permalink: /ingestion-immigration-nationalism
-feature-img: assets\img\page_titles\goddess_yuki_whip.jpg
+feature-img: assets\img\page_titles\6.1.2024_goddess_yuki.png
 hide: true
 method-sidebar: false
 tags: []

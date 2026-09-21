@@ -4,6 +4,7 @@ title : Esports & Reality
 permalink: /esports-reality
 hide: true
 method-sidebar: false
+feature-img: assets\img\page_titles\6.16.2024_lcs.jpg
 tags: []
 ---
 
