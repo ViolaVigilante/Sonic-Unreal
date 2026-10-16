@@ -3,7 +3,7 @@ layout: essay
 title : Liveness & Reality
 permalink: /liveness-reality
 hide: true
-method-sidebar: false
+method-sidebar: true
 feature-img: assets\img\page_titles\6.9.2023_la_pride_fletcher.jpg
 tags: []
 ---

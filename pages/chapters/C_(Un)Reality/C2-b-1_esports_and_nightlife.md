@@ -4,6 +4,7 @@ title : Esports & Nightlife
 permalink: /esports-and-nightlife
 hide: true
 method-sidebar: false
+feature-img: assets\img\page_titles\9.22.2023_lags_mk1.jpg
 tags: []
 ---
 
